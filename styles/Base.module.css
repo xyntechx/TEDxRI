@@ -1,0 +1,82 @@
+.maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.title {
+    line-height: 1.15;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(230, 43, 30);
+    margin-top: 8rem;
+}
+
+.subtitle,
+.text,
+.speakertext,
+.red {
+    font-size: 1.5rem;
+    color: rgba(17, 24, 39);
+    text-align: justify;
+    width: 100%;
+}
+
+.text,
+.speakertext,
+.red {
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.text {
+    margin: 0;
+}
+
+.red {
+    margin-top: 2rem;
+}
+
+.speakertext {
+    font-size: 1.2rem;
+}
+
+.red,
+.link {
+    color: rgb(230, 43, 30);
+}
+
+.link:hover {
+    color: rgba(185, 28, 28);
+}
+
+.disclaimer {
+    font-size: 1rem;
+    margin: 2rem 5rem;
+    color: gray;
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle,
+    .text,
+    .speakertext,
+    .red {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .disclaimer {
+        font-size: 0.5rem;
+        margin: 1.5rem 0.5rem;
+    }
+
+    .red {
+        margin-top: 1rem;
+    }
+}

@@ -1,16 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: rgba(17, 24, 39);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(31, 41, 55);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5rem;
+    background: rgb(230, 43, 30);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(185, 28, 28);
+}
+
+*::selection {
+    color: #ffffff;
+    background-color: rgb(230, 43, 30);
 }

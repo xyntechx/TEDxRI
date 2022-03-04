@@ -1,0 +1,45 @@
+.curves,
+.curvesflipped {
+    aspect-ratio: 900/200;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../public/layer.svg");
+    margin-top: 1rem;
+}
+
+.curvesflipped {
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.blobcontent {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.red {
+    width: 100vw;
+    background: rgb(152, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 5rem;
+    column-gap: 5rem;
+}
+
+@media (max-width: 1150px) {
+    .red {
+        padding: 0 3rem;
+        flex-direction: column;
+    }
+
+    .blobcontent {
+        margin-left: 1rem;
+    }
+}
