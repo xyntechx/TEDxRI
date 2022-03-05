@@ -120,7 +120,7 @@ const About: NextPage = () => {
                                 X
                             </button>
                             <p className={styles.name}>
-                                Head/Co-Head of Development
+                                Head/Co-Head of Speaker Development
                             </p>
                             <p>Commitment Level: ~10h/week</p>
                             <p>Details:</p>
@@ -286,6 +286,20 @@ const About: NextPage = () => {
                 </section>
             </div>
 
+            <p className={styles.text}>
+                Applications for the TEDxYouth@RafflesInstitution EXCO will open
+                on 20 March. Follow{" "}
+                <Link href="https://www.instagram.com/tedxri/">
+                    <a target="_blank" className={styles.red}>
+                        @TEDxRI
+                    </a>
+                </Link>{" "}
+                for updates!
+            </p>
+
+            <br />
+            <br />
+
             <div className={styles.grid}>
                 <section className={styles.smallcontainer}>
                     <Image
@@ -324,13 +338,15 @@ const About: NextPage = () => {
                 <section className={styles.smallcontainer}>
                     <Image
                         src="/placeholder.png"
-                        alt="Head/Co-Head of Development"
+                        alt="Head/Co-Head of Speaker Development"
                         width={300}
                         height={300}
                         className={styles.rounded}
                     />
                     <br />
-                    <p className={styles.name}>Head/Co-Head of Development</p>
+                    <p className={styles.name}>
+                        Head/Co-Head of Speaker Development
+                    </p>
                     <button
                         className={styles.button}
                         onClick={() => setShow2(true)}
@@ -356,21 +372,6 @@ const About: NextPage = () => {
                     </button>
                 </section>
             </div>
-
-            <br />
-            <br />
-            <br />
-
-            <p className={styles.text}>
-                Applications for the TEDxYouth@RafflesInstitution EXCO will open
-                on 20 March. Follow{" "}
-                <Link href="https://www.instagram.com/tedxri/">
-                    <a target="_blank" className={styles.red}>
-                        @TEDxRI
-                    </a>
-                </Link>{" "}
-                for updates!
-            </p>
 
             <br />
             <br />

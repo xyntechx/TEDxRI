@@ -184,10 +184,14 @@
         margin-bottom: 3rem;
     }
 
-    .subtitle,
-    .text {
+    .subtitle {
         font-size: 0.8rem;
         width: 100%;
+    }
+
+    .text {
+        width: 90%;
+        font-size: 1rem;
     }
 
     .button {
@@ -196,10 +200,6 @@
 
     .link {
         font-size: 0.6rem;
-    }
-
-    .text {
-        margin-top: 3rem;
     }
 
     .container,
