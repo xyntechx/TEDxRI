@@ -11,8 +11,8 @@ const Topnav: NextPage = () => {
                     <Image
                         src="/logo.png"
                         alt="TEDxRI Logo"
-                        width={110}
-                        height={36}
+                        width={165}
+                        height={54}
                     />
                 </a>
             </Link>
@@ -26,9 +26,9 @@ const Topnav: NextPage = () => {
                 <Link href="/faq">
                     <a className={topnav.link}>FAQ</a>
                 </Link>
-                {/* <Link href="/speakers">
+                <Link href="/speakers">
                     <a className={topnav.link}>Speakers</a>
-                </Link> */}
+                </Link>
                 <Link href="/faq">
                     <a className={topnav.speciallink}>Attend</a>
                 </Link>

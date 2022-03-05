@@ -3,7 +3,6 @@ import Head from "next/head";
 import Image from "next/dist/client/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import grid from "../styles/Grid.module.css";
 import curves from "../styles/Curves.module.css";
 import Footer from "../components/footer";
 import Topnav from "../components/topnav";
@@ -30,7 +29,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     property="og:image"
-                    content="https://tedxri.com/logo.png"
+                    content="https://tedxri.com/logo-square.jpeg"
                 />
                 <meta property="og:url" content="https://tedxri.com/" />
                 <meta property="og:type" content="website" />
@@ -40,26 +39,17 @@ const Home: NextPage = () => {
 
             <Topnav />
 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-
-            <section className={grid.container}>
+            <section className={styles.intro}>
                 <Image
                     src="/logo.png"
                     alt="TEDxRI Logo"
                     width={1061}
                     height={364}
                 />
+                <p className={styles.text}>
+                    Raffles Institution&apos;s 2022 TEDx conference
+                </p>
             </section>
-
-            <br />
-            <br />
-            <br />
 
             <div className={curves.curves}></div>
 

@@ -5,17 +5,23 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("../public/layer.svg");
     margin-top: 1rem;
+    z-index: 1;
+}
+
+.curves {
+    margin-top: 70vh;
+    background-image: url("../public/layer.svg");
 }
 
 .curvesflipped {
     transform: rotate(180deg);
     margin: 0;
+    background-image: url("../public/layerflipped.svg");
 }
 
 .blobcontent {
-    z-index: 1;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +37,7 @@
     flex-direction: row;
     padding-left: 5rem;
     column-gap: 5rem;
+    z-index: 1;
 }
 
 @media (max-width: 1150px) {

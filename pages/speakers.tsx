@@ -35,8 +35,26 @@ const About: NextPage = () => {
 
             <Topnav />
 
-            <h1 className={styles.title}>Executive Committee</h1>
-            <div className={styles.grid}>
+            <h1 className={styles.title}>Speakers</h1>
+            <p className={styles.text}>
+                TEDxYouth@RafflesInstitution speakers will include Y56 students,
+                staff, and distinguished alumni sharing about
+                &quot;Impact&quot;, including that in the scientific,
+                technological, artistic, medical, philanthropic, humanitarian
+                field.
+            </p>
+            <p className={styles.text}>
+                Applications for student speakers will open soon! Invitation
+                emails will be sent to staff and alumni speakers soon as well!
+            </p>
+            <br />
+            <br />
+            <div className={styles.buttoncontainer}>
+                <Link href="/faq">
+                    <a className={styles.button}>Learn More</a>
+                </Link>
+            </div>
+            {/* <div className={styles.grid}>
                 <section className={styles.smallcontainer}>
                     <Image
                         src="/eric.jpeg"
@@ -137,7 +155,7 @@ const About: NextPage = () => {
                         </Link>
                     </span>
                 </section>
-            </div>
+            </div> */}
 
             <br />
             <br />

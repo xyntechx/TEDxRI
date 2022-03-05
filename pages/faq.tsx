@@ -26,7 +26,7 @@ const Faq: NextPage = () => {
                 />
                 <meta
                     property="og:image"
-                    content="https://tedxri.com/logo.png"
+                    content="https://tedxri.com/logo-square.jpeg"
                 />
                 <meta property="og:url" content="https://tedxri.com/" />
                 <meta property="og:type" content="website" />
@@ -35,88 +35,90 @@ const Faq: NextPage = () => {
             <Topnav />
 
             <h1 className={base.title}>FAQ</h1>
-            <p className={base.red}>Q: What is TEDxNewton?</p>
+            <p className={base.red}>Q: What is TEDxYouth@RafflesInstitution?</p>
             <p className={base.text}>
-                A: TEDxNewton is Singapore&apos;s national TEDx conference on
-                science and technology.
+                A: TEDxYouth@RafflesInstitution is Raffles Institution&apos;s
+                2022 TEDx conference.
             </p>
             <br />
 
-            <p className={base.red}>Q: When is TEDxNewton 2022?</p>
+            <p className={base.red}>Q: When is TEDxYouth@RafflesInstitution?</p>
             <p className={base.text}>
-                A: 19 March 2022, 2pm - 7pm virtually on Zoom and simultaneously
-                livestreamed on YouTube.
+                A: TEDxYouth@RafflesInstitution will be held on 30 July 2022,
+                from 0830 to 1630 (UTC+08:00) either at the PAC of Raffles
+                Institution or virtually on Zoom, depending on the prevailing
+                conditions of the pandemic. Should the event be in-person, it
+                will simultaneously be livestreamed on YouTube for public
+                viewing.
             </p>
             <br />
 
             <p className={base.red}>
-                Q: What are the topics of the TEDxNewton talks?
+                Q: What are the topics of the TEDxYouth@RafflesInstitution
+                talks?
             </p>
             <p className={base.text}>
-                A: Topics include: artificial intelligence (AI), cryptocurrency
-                & blockchain, cybersecurity, virtual reality (VR) & the
-                metaverse, entrepreneurship & innovation, mathematics,
-                engineering, and many more! Discover our speakers{" "}
-                <Link href="/speakers">
-                    <a className={base.link}>here</a>
+                A: With &quot;Impact&quot; as our theme, speakers will share
+                about scientific, technological, artistic, medical,
+                philanthropic, humanitarian impact, etc.
+            </p>
+            <br />
+
+            <p className={base.red}>
+                Q: How do I attend TEDxYouth@RafflesInstitution?
+            </p>
+            <p className={base.text}>
+                A: In-person attendance is open only to Year 5 and 6 students of
+                Raffles Institution. However, the public may attend the
+                conference virtually via links made available on this page and
+                on our Instagram, Twitter, & LinkedIn pages nearer to the event
+                date.
+            </p>
+            <br />
+
+            <p className={base.red}>
+                Q: How do I volunteer at TEDxYouth@RafflesInstitution?
+            </p>
+            <p className={base.text}>
+                A: Sign-ups for TEDxYouth@RafflesInstitution volunteers will
+                open nearer to the event date! For queries, please email us at{" "}
+                <Link href="mailto:contact@tedxri.com">
+                    <a className={base.link}>contact@tedxri.com</a>
                 </Link>
-            </p>
-            <br />
-
-            <p className={base.red}>Q: How do I attend TEDxNewton?</p>
-            <p className={base.text}>
-                A: Links to TEDxNewton will be made available on this page and
-                at @TEDxNewton on Instagram, Twitter, LinkedIn & Facebook by 10
-                March 2022.
+                .
             </p>
             <br />
 
             <p className={base.red}>
-                Q: Why is TEDxNewton 2022 now held virtually on Zoom instead of
-                in-person?
+                Q: How can I become a speaker at TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>
-                A: Due to the rapidly evolving COVID-19 situation, TEDxNewton
-                has been shifted from an in-person conference to a virtual one
-                in the interests of public health and safety.
-                <br />
-                TEDxNewton is expected to resume in-person conferences in
-                Newton, Singapore for the 2023 edition and beyond.
-            </p>
-            <br />
-
-            <p className={base.red}>Q: How do I volunteer at TEDxNewton?</p>
-            <p className={base.text}>
-                A: Sign-ups for TEDxNewton 2022 volunteers are currently closed.
-                However, if you would like to apply to join the Executive
-                Committee for the 2023 edition of TEDxNewton, you may send an
-                email to{" "}
-                <Link href="mailto:contact@tedxnewton.com">
-                    <a className={base.link}>contact@tedxnewton.com</a>
+                A: TEDxYouth@RafflesInstitution will feature speakers who are
+                Y56 students, staff, and distinguished alumni of Raffles
+                Institution. Invitations will be sent out to staff and alumni
+                speakers, but student speakers are welcome to apply via an
+                application form on the{" "}
+                <Link href="/speakers">
+                    <a className={base.link}>Speakers</a>
                 </Link>{" "}
-                to indicate your interest!
+                page soon!
             </p>
             <br />
 
             <p className={base.red}>
-                Q: How can I become a speaker at TEDxNewton?
-            </p>
-            <p className={base.text}>
-                A: Speaker applications have closed for TEDxNewton 2022, but
-                prospective speakers are welcome to apply for future editions of
-                TEDxNewton. More details will be shared in late 2022/early 2023.
-            </p>
-            <br />
-
-            <p className={base.red}>
-                Q: What is the difference between TED and TEDxNewton?
+                Q: What is the difference between TED and
+                TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>
                 A: TED is a nonprofit organization devoted to Ideas Worth
-                Spreading. In the spirit of ideas worth spreading, TEDxNewton is
-                independently organized in Singapore and operates under license
-                from TED Conferences LLC.
+                Spreading. In the spirit of ideas worth spreading,
+                TEDxYouth@RafflesInstitution is independently organized in
+                Singapore and operates under license from TED Conferences LLC.
             </p>
+
+            <br />
+            <br />
+            <br />
 
             <Footer />
         </div>

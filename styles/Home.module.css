@@ -6,6 +6,17 @@
     padding: 0 2rem;
 }
 
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    min-height: 80vh;
+}
+
 .red {
     color: rgb(230, 43, 30);
 }
@@ -22,11 +33,16 @@
     margin: 1rem 3rem;
 }
 
-.content {
+.content,
+.text {
     font-size: 2rem;
     color: rgb(249, 250, 251);
     text-align: center;
     margin: 1rem 3rem;
+}
+
+.text {
+    color: #000;
 }
 
 .subtitle {
@@ -82,16 +98,17 @@
     border-radius: 1rem;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 600px) {
     .tagline,
     .button,
-    .content {
+    .content,
+    .text {
         font-size: 1rem;
     }
 
-    .content {
+    .content,
+    .text {
         margin: 0.5rem;
-        text-align: justify;
     }
 
     .title {
