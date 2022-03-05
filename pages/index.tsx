@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     property="og:image"
-                    content="https://tedxri.com/logo-square.jpeg"
+                    content="https://tedxri.com/logo.png"
                 />
                 <meta property="og:url" content="https://tedxri.com/" />
                 <meta property="og:type" content="website" />
