@@ -312,7 +312,7 @@ const About: NextPage = () => {
                     <br />
                     <p className={styles.name}>Head of Publicity</p>
                     <button
-                        className={styles.button}
+                        className={styles.learnmore}
                         onClick={() => setShow0(true)}
                     >
                         Learn More
@@ -329,7 +329,7 @@ const About: NextPage = () => {
                     <br />
                     <p className={styles.name}>Head of Outreach</p>
                     <button
-                        className={styles.button}
+                        className={styles.learnmore}
                         onClick={() => setShow1(true)}
                     >
                         Learn More
@@ -348,7 +348,7 @@ const About: NextPage = () => {
                         Head/Co-Head of Speaker Development
                     </p>
                     <button
-                        className={styles.button}
+                        className={styles.learnmore}
                         onClick={() => setShow2(true)}
                     >
                         Learn More
@@ -365,7 +365,7 @@ const About: NextPage = () => {
                     <br />
                     <p className={styles.name}>Head of Production</p>
                     <button
-                        className={styles.button}
+                        className={styles.learnmore}
                         onClick={() => setShow3(true)}
                     >
                         Learn More

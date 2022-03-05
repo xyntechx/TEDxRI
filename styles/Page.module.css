@@ -60,7 +60,8 @@
     background-color: rgba(17, 24, 39);
 }
 
-.button {
+.button,
+.learnmore {
     border: 0.2rem solid rgb(230, 43, 30);
     border-radius: 0.8rem;
     padding: 0.3rem 0.5rem;
@@ -75,7 +76,13 @@
     font-size: 1rem;
 }
 
-.button:hover {
+.learnmore {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.button:hover,
+.learnmore:hover {
     color: rgba(249, 250, 251);
     background: rgb(230, 43, 30);
     cursor: pointer;
@@ -230,8 +237,13 @@
         font-size: 1rem;
     }
 
-    .role {
+    .role,
+    .learnmore {
         font-size: 0.8rem;
+    }
+
+    .learnmore {
+        margin-top: 0.3rem;
     }
 }
 
