@@ -26,7 +26,7 @@ const Faq: NextPage = () => {
                 />
                 <meta
                     property="og:image"
-                    content="https://tedxri.com/logo-square.jpeg"
+                    content="https://tedxri.com/og-logo.png"
                 />
                 <meta property="og:url" content="https://tedxri.com/" />
                 <meta property="og:type" content="website" />
@@ -68,20 +68,21 @@ const Faq: NextPage = () => {
                 Q: How do I attend TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>
-                A: In-person attendance is open only to Year 5 and 6 students of
-                Raffles Institution. However, the public may attend the
-                conference virtually via links made available on this page and
-                on our Instagram, Twitter, & LinkedIn pages nearer to the event
-                date.
+                A: In-person attendance is open only to Y56 students of Raffles
+                Institution. However, the public may attend the conference
+                virtually via links made available on this page and on our
+                Instagram, Twitter, & LinkedIn pages nearer to the event date.
             </p>
             <br />
 
             <p className={base.red}>
-                Q: How do I volunteer at TEDxYouth@RafflesInstitution?
+                Q: How do I become an EXCO or volunteer at
+                TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>
-                A: Sign-ups for TEDxYouth@RafflesInstitution volunteers will
-                open nearer to the event date! For queries, please email us at{" "}
+                A: Sign-ups for TEDxYouth@RafflesInstitution EXCO and volunteers
+                will open soon! Do note that this is only applicable to Y56
+                students of Raffles Institution. For queries, please email us at{" "}
                 <Link href="mailto:contact@tedxri.com">
                     <a className={base.link}>contact@tedxri.com</a>
                 </Link>
