@@ -361,6 +361,21 @@ const About: NextPage = () => {
             <br />
             <br />
 
+            <p className={styles.text}>
+                Applications for the TEDxYouth@RafflesInstitution EXCO will open
+                on 20 March. Follow{" "}
+                <Link href="https://www.instagram.com/tedxri/">
+                    <a target="_blank" className={styles.red}>
+                        @TEDxRI
+                    </a>
+                </Link>{" "}
+                for updates!
+            </p>
+
+            <br />
+            <br />
+            <br />
+
             <Footer />
         </div>
     );
