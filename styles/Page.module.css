@@ -68,6 +68,7 @@
     font-size: 1.5rem;
     color: rgb(230, 43, 30);
     text-align: center;
+    background-color: rgba(249, 250, 251);
 }
 
 .link {
@@ -77,6 +78,7 @@
 .button:hover {
     color: rgba(249, 250, 251);
     background: rgb(230, 43, 30);
+    cursor: pointer;
 }
 
 .red {
@@ -92,6 +94,7 @@
 }
 
 .grid,
+.grid2,
 .speakergrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -99,6 +102,12 @@
     row-gap: 4rem;
     width: 90%;
     align-items: start;
+}
+
+.grid2 {
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    margin-bottom: 2rem;
 }
 
 .speakergrid {

@@ -3,10 +3,24 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Page.module.css";
+import popup from "../styles/Popup.module.css";
 import Footer from "../components/footer";
 import Topnav from "../components/topnav";
+import { useState } from "react";
 
 const About: NextPage = () => {
+    const [show0, setShow0] = useState(false);
+    const [show1, setShow1] = useState(false);
+    const [show2, setShow2] = useState(false);
+    const [show3, setShow3] = useState(false);
+
+    const closePopUp = async () => {
+        setShow0(false);
+        setShow1(false);
+        setShow2(false);
+        setShow3(false);
+    };
+
     return (
         <div className={styles.maincontainer}>
             <Head>
@@ -35,8 +49,141 @@ const About: NextPage = () => {
 
             <Topnav />
 
+            {show0 || show1 || show2 || show3 ? (
+                <div className={popup.main} onClick={closePopUp}>
+                    {show0 ? (
+                        <div className={popup.container}>
+                            <button
+                                className={popup.close}
+                                onClick={() => setShow0(false)}
+                            >
+                                X
+                            </button>
+                            <p className={styles.name}>Head of Publicity</p>
+                            <p>Commitment Level: ~5-10h/week</p>
+                            <p>Details:</p>
+                            <ul>
+                                <li>
+                                    Responsible for envisioning, creating, and
+                                    posting weekly posts/stories on Instagram
+                                    (@tedxri) & LinkedIn
+                                    (https://www.linkedin.com/company/tedxri)
+                                    and liaising with the school &
+                                    Students&apos; Council Communications
+                                    Department for publicity on
+                                    @raffles_institution & @teamraffles, and
+                                    LinkedIn
+                                    (https://www.linkedin.com/school/raffles-institution/),
+                                    etc
+                                </li>
+                                <li>
+                                    Prior experience in Instagram publicity
+                                    necessary (e.g. CE01 projects), LinkedIn
+                                    experience preferred
+                                </li>
+                            </ul>
+                        </div>
+                    ) : (
+                        <></>
+                    )}
+                    {show1 ? (
+                        <div className={popup.container}>
+                            <button
+                                className={popup.close}
+                                onClick={() => setShow1(false)}
+                            >
+                                X
+                            </button>
+                            <p className={styles.name}>Head of Outreach</p>
+                            <p>Commitment Level: ~5-10h/week</p>
+                            <p>Details:</p>
+                            <p>
+                                Responsible for creating publicity posters for
+                                speaker applications to be displayed in RI,
+                                liaising with school for schoolwide
+                                email/Stamford/Ivy announcements/Class
+                                leaders&apos; WhatsApp messages, liaising with
+                                Raffles Press for a feature/interview with
+                                co-founders to be published, all communications
+                                (e.g. email) with school
+                            </p>
+                        </div>
+                    ) : (
+                        <></>
+                    )}
+                    {show2 ? (
+                        <div className={popup.container}>
+                            <button
+                                className={popup.close}
+                                onClick={() => setShow2(false)}
+                            >
+                                X
+                            </button>
+                            <p className={styles.name}>
+                                Head/Co-Head of Development
+                            </p>
+                            <p>Commitment Level: ~10h/week</p>
+                            <p>Details:</p>
+                            <ul>
+                                <li>
+                                    Responsible for reaching out to, engaging,
+                                    selecting, setting deadlines for speakers &
+                                    providing feedback on drafts & rehearsal
+                                    performances
+                                </li>
+                                <li>
+                                    More details on requirements:
+                                    bit.ly/speakerselection1 &
+                                    bit.ly/speakerselection2
+                                </li>
+                                <li>
+                                    Prior experience in public speaking or
+                                    debating highly preferred
+                                </li>
+                            </ul>
+                        </div>
+                    ) : (
+                        <></>
+                    )}
+                    {show3 ? (
+                        <div className={popup.container}>
+                            <button
+                                className={popup.close}
+                                onClick={() => setShow3(false)}
+                            >
+                                X
+                            </button>
+                            <p className={styles.name}>Head of Production</p>
+                            <p>
+                                Commitment Level: ~5h/week, more in the weeks
+                                before and after the conference
+                            </p>
+                            <p>Details:</p>
+                            <ul>
+                                <li>
+                                    Responsible for leading all production and
+                                    planning for the day of the conference,
+                                    including content production, stage
+                                    management, technology, and video, etc
+                                </li>
+                                <li>
+                                    Liaise with AVU/Raffles Photography
+                                    Society/Gavel Club/etc to recruit volunteers
+                                    for production, ushering, photo-taking,
+                                    emceeing & video-editing, etc
+                                </li>
+                            </ul>
+                        </div>
+                    ) : (
+                        <></>
+                    )}
+                </div>
+            ) : (
+                <></>
+            )}
+
             <h1 className={styles.title}>Executive Committee</h1>
-            <div className={styles.grid}>
+            <div className={styles.grid2}>
                 <section className={styles.smallcontainer}>
                     <Image
                         src="/eric.jpeg"
@@ -136,6 +283,77 @@ const About: NextPage = () => {
                             </a>
                         </Link>
                     </span>
+                </section>
+            </div>
+
+            <div className={styles.grid}>
+                <section className={styles.smallcontainer}>
+                    <Image
+                        src="/placeholder.png"
+                        alt="Head of Publicity"
+                        width={300}
+                        height={300}
+                        className={styles.rounded}
+                    />
+                    <br />
+                    <p className={styles.name}>Head of Publicity</p>
+                    <button
+                        className={styles.button}
+                        onClick={() => setShow0(true)}
+                    >
+                        Learn More
+                    </button>
+                </section>
+                <section className={styles.smallcontainer}>
+                    <Image
+                        src="/placeholder.png"
+                        alt="Head of Outreach"
+                        width={300}
+                        height={300}
+                        className={styles.rounded}
+                    />
+                    <br />
+                    <p className={styles.name}>Head of Outreach</p>
+                    <button
+                        className={styles.button}
+                        onClick={() => setShow1(true)}
+                    >
+                        Learn More
+                    </button>
+                </section>
+                <section className={styles.smallcontainer}>
+                    <Image
+                        src="/placeholder.png"
+                        alt="Head/Co-Head of Development"
+                        width={300}
+                        height={300}
+                        className={styles.rounded}
+                    />
+                    <br />
+                    <p className={styles.name}>Head/Co-Head of Development</p>
+                    <button
+                        className={styles.button}
+                        onClick={() => setShow2(true)}
+                    >
+                        Learn More
+                    </button>
+                </section>
+                <section className={styles.smallcontainer}>
+                    <Image
+                        src="/placeholder.png"
+                        alt="Head of Production"
+                        width={300}
+                        height={300}
+                        className={styles.rounded}
+                    />
+                    <br />
+                    <p className={styles.name}>Head of Production</p>
+                    <button
+                        className={styles.button}
+                        onClick={() => setShow3(true)}
+                    >
+                        Learn More
+                    </button>
                 </section>
             </div>
 
