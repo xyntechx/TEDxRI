@@ -27,7 +27,7 @@
 }
 
 .title {
-    font-size: 8rem;
+    font-size: 4rem;
     text-align: center;
     color: rgb(249, 250, 251);
     margin: 1rem 3rem;
@@ -35,18 +35,23 @@
 
 .content,
 .text {
-    font-size: 2rem;
     color: rgb(249, 250, 251);
     text-align: center;
-    margin: 1rem 3rem;
+}
+
+.content {
+    font-size: 1.5rem;
+    margin: 1rem 8rem;
 }
 
 .text {
+    font-size: 2rem;
     color: #000;
+    margin: 1rem 3rem;
 }
 
 .subtitle {
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(249, 250, 251);
     margin: 1rem 3rem;
     text-align: center;
@@ -98,6 +103,12 @@
     border-radius: 1rem;
 }
 
+@media (max-width: 800px) {
+    .content {
+        margin: 0.5rem;
+    }
+}
+
 @media (max-width: 600px) {
     .tagline,
     .button,
@@ -106,13 +117,12 @@
         font-size: 1rem;
     }
 
-    .content,
     .text {
         margin: 0.5rem;
     }
 
     .title {
-        font-size: 3rem;
+        font-size: 2rem;
         margin: 0.5rem 1rem;
     }
 

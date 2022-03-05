@@ -43,8 +43,8 @@ const Home: NextPage = () => {
                 <Image
                     src="/logo.png"
                     alt="TEDxRI Logo"
-                    width={1061}
-                    height={364}
+                    width={795}
+                    height={273}
                 />
                 <p className={styles.text}>
                     Raffles Institution&apos;s 2022 TEDx conference
@@ -57,7 +57,6 @@ const Home: NextPage = () => {
                 <div className={curves.blobcontent}>
                     <h1 className={styles.title}>Impact</h1>
                     <h1 className={styles.subtitle}>30 July 2022</h1>
-                    <p className={styles.subtitle}>0830 - 1630 (UTC+08:00)</p>
                     <p className={styles.subtitle}>
                         @ Raffles Institution / Online
                     </p>
