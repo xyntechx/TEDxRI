@@ -155,7 +155,7 @@ const About: NextPage = () => {
                             </button>
                             <p className={styles.name}>Head of Production</p>
                             <p>
-                                Commitment Level: ~5h/week, more in the weeks
+                                Commitment Level: ~5-10h/week, more in the weeks
                                 before and after the conference
                             </p>
                             <p>Details:</p>
