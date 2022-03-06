@@ -19,11 +19,13 @@
     overflow-y: auto;
     background-color: rgb(249 250 251);
     padding: 2rem;
-    max-height: 50vh;
+    max-height: 70vh;
+    width: 70vw;
     font-size: 1rem;
     box-shadow: 1rem 1rem black, -1rem -1rem #ccc;
     z-index: 2;
     text-align: justify;
+    word-wrap: break-word;
 }
 
 .link {
@@ -76,10 +78,18 @@
     background: rgb(230, 43, 30);
 }
 
+.text {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
 @media (max-width: 700px) {
     .container {
         font-size: 1rem;
-        width: 70vw;
+        width: 80vw;
     }
 
     .button {

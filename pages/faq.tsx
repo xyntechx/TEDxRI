@@ -81,9 +81,15 @@ const Faq: NextPage = () => {
             </p>
             <p className={base.text}>
                 A: Sign-ups for TEDxYouth@RafflesInstitution EXCO will open on
-                20 March, and that for volunteers nearer to the event date! Do
-                note that only Y56 students of Raffles Institution can sign up
-                as EXCO members or volunteers. For queries, please email us at{" "}
+                20 March at{" "}
+                <Link href="https://bit.ly/tedxriexco">
+                    <a className={base.link} target="_blank">
+                        https://bit.ly/tedxriexco
+                    </a>
+                </Link>
+                , and that for volunteers nearer to the event date! Do note that
+                only Y56 students of Raffles Institution can sign up as EXCO
+                members or volunteers. For queries, please email us at{" "}
                 <Link href="mailto:contact@tedxri.com">
                     <a className={base.link}>contact@tedxri.com</a>
                 </Link>

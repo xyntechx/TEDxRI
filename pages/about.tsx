@@ -60,9 +60,13 @@ const About: NextPage = () => {
                                 X
                             </button>
                             <p className={styles.name}>Head of Publicity</p>
-                            <p>Commitment Level: ~5-10h/week</p>
-                            <p>Details:</p>
-                            <ul>
+                            <p className={popup.center}>
+                                Commitment Level:
+                                <br />
+                                ~5-10h/week
+                            </p>
+                            <p className={popup.center}>Details:</p>
+                            <ul className={popup.text}>
                                 <li>
                                     Responsible for envisioning, creating, and
                                     posting weekly posts/stories on Instagram
@@ -95,9 +99,13 @@ const About: NextPage = () => {
                                 X
                             </button>
                             <p className={styles.name}>Head of Outreach</p>
-                            <p>Commitment Level: ~5-10h/week</p>
-                            <p>Details:</p>
-                            <p>
+                            <p className={popup.center}>
+                                Commitment Level:
+                                <br />
+                                ~5-10h/week
+                            </p>
+                            <p className={popup.center}>Details:</p>
+                            <p className={popup.text}>
                                 Responsible for creating publicity posters for
                                 speaker applications to be displayed in RI,
                                 liaising with school for schoolwide
@@ -122,9 +130,13 @@ const About: NextPage = () => {
                             <p className={styles.name}>
                                 Head/Co-Head of Speaker Development
                             </p>
-                            <p>Commitment Level: ~10h/week</p>
-                            <p>Details:</p>
-                            <ul>
+                            <p className={popup.center}>
+                                Commitment Level:
+                                <br />
+                                ~10h/week
+                            </p>
+                            <p className={popup.center}>Details:</p>
+                            <ul className={popup.text}>
                                 <li>
                                     Responsible for reaching out to, engaging,
                                     selecting, setting deadlines for speakers &
@@ -154,12 +166,14 @@ const About: NextPage = () => {
                                 X
                             </button>
                             <p className={styles.name}>Head of Production</p>
-                            <p>
-                                Commitment Level: ~5-10h/week, more in the weeks
-                                before and after the conference
+                            <p className={popup.center}>
+                                Commitment Level:
+                                <br />
+                                ~5-10h/week, more in the weeks before and after
+                                the conference
                             </p>
-                            <p>Details:</p>
-                            <ul>
+                            <p className={popup.center}>Details:</p>
+                            <ul className={popup.text}>
                                 <li>
                                     Responsible for leading all production and
                                     planning for the day of the conference,
@@ -288,7 +302,13 @@ const About: NextPage = () => {
 
             <p className={styles.text}>
                 Applications for the TEDxYouth@RafflesInstitution EXCO will open
-                on 20 March. Follow{" "}
+                on 20 March at{" "}
+                <Link href="https://bit.ly/tedxriexco">
+                    <a className={styles.red} target="_blank">
+                        https://bit.ly/tedxriexco
+                    </a>
+                </Link>
+                . Follow{" "}
                 <Link href="https://www.instagram.com/tedxri/">
                     <a target="_blank" className={styles.red}>
                         @TEDxRI

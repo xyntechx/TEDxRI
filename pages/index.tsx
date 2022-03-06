@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/dist/client/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import page from "../styles/Page.module.css";
 import curves from "../styles/Curves.module.css";
 import Footer from "../components/footer";
 import Topnav from "../components/topnav";
@@ -49,6 +50,14 @@ const Home: NextPage = () => {
                 <p className={styles.text}>
                     Raffles Institution&apos;s 2022 TEDx conference
                 </p>
+                <br />
+                <div className={styles.buttoncontainer}>
+                    <Link href="https://bit.ly/tedxriexco">
+                        <a className={page.button} target="_blank">
+                            EXCO Application
+                        </a>
+                    </Link>
+                </div>
             </section>
 
             <div className={curves.curves}></div>
