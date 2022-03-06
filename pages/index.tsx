@@ -52,10 +52,13 @@ const Home: NextPage = () => {
                 </p>
                 <br />
                 <div className={styles.buttoncontainer}>
-                    <Link href="https://bit.ly/tedxriexco">
+                    {/* <Link href="https://bit.ly/tedxriexco">
                         <a className={page.button} target="_blank">
                             EXCO Application
                         </a>
+                    </Link> */}
+                    <Link href="/about">
+                        <a className={page.button}>EXCO Application</a>
                     </Link>
                 </div>
             </section>
