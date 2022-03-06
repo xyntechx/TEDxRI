@@ -188,8 +188,8 @@ const About: NextPage = () => {
                     <Image
                         src="/eric.jpeg"
                         alt="Eric Li"
-                        width={300}
-                        height={300}
+                        width={200}
+                        height={200}
                         className={styles.rounded}
                     />
                     <br />
@@ -232,8 +232,8 @@ const About: NextPage = () => {
                     <Image
                         src="/nyx.jpg"
                         alt="Nyx Audrey Angelo Iskandar"
-                        width={300}
-                        height={300}
+                        width={200}
+                        height={200}
                         className={styles.rounded}
                     />
                     <br />
@@ -305,8 +305,8 @@ const About: NextPage = () => {
                     <Image
                         src="/placeholder.png"
                         alt="Head of Publicity"
-                        width={300}
-                        height={300}
+                        width={200}
+                        height={200}
                         className={styles.rounded}
                     />
                     <br />
@@ -322,8 +322,8 @@ const About: NextPage = () => {
                     <Image
                         src="/placeholder.png"
                         alt="Head of Outreach"
-                        width={300}
-                        height={300}
+                        width={200}
+                        height={200}
                         className={styles.rounded}
                     />
                     <br />
@@ -339,8 +339,8 @@ const About: NextPage = () => {
                     <Image
                         src="/placeholder.png"
                         alt="Head/Co-Head of Speaker Development"
-                        width={300}
-                        height={300}
+                        width={200}
+                        height={200}
                         className={styles.rounded}
                     />
                     <br />
@@ -358,8 +358,8 @@ const About: NextPage = () => {
                     <Image
                         src="/placeholder.png"
                         alt="Head of Production"
-                        width={300}
-                        height={300}
+                        width={200}
+                        height={200}
                         className={styles.rounded}
                     />
                     <br />
