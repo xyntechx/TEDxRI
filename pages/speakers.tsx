@@ -44,8 +44,9 @@ const About: NextPage = () => {
                 field.
             </p>
             <p className={styles.text}>
-                Applications for student speakers will open soon! Invitation
-                emails will be sent to staff and alumni speakers soon as well!
+                Applications for student speakers will open in due course!
+                Invitation emails will be sent to staff and alumni speakers in
+                due course as well!
             </p>
             <br />
             <br />
