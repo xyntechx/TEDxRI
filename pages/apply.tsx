@@ -29,7 +29,7 @@ const Apply: NextPage = () => {
                 <meta property="og:url" content="https://tedxri.com/" />
                 <meta property="og:type" content="website" />
                 <meta
-                    http-equiv="Refresh"
+                    httpEquiv="Refresh"
                     content="0; url='https://bit.ly/tedxriexco'"
                 />
             </Head>
