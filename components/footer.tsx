@@ -26,17 +26,6 @@ const Footer: NextPage = () => {
                         </a>
                     </Link>
                     &nbsp;&nbsp;&nbsp;
-                    <Link href="https://twitter.com/tedxri">
-                        <a target="_blank">
-                            <Image
-                                src="/twitter.png"
-                                alt="TEDxRI Twitter"
-                                width={20}
-                                height={20}
-                            />
-                        </a>
-                    </Link>
-                    &nbsp;&nbsp;&nbsp;
                     <Link href="https://www.linkedin.com/company/tedxri">
                         <a target="_blank">
                             <Image

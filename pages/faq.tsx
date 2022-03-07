@@ -70,7 +70,7 @@ const Faq: NextPage = () => {
                 A: In-person attendance is open only to Y56 students of Raffles
                 Institution. However, the public may attend the conference
                 virtually via links made available on this page and on our
-                Instagram, Twitter, & LinkedIn pages nearer to the event date.
+                Instagram & LinkedIn pages nearer to the event date.
             </p>
             <br />
 
