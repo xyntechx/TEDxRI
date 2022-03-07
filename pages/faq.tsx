@@ -44,12 +44,11 @@ const Faq: NextPage = () => {
 
             <p className={base.red}>Q: When is TEDxYouth@RafflesInstitution?</p>
             <p className={base.text}>
-                A: TEDxYouth@RafflesInstitution will be held on 30 July 2022,
-                from 0830 to 1630 (UTC+08:00) either at the PAC of Raffles
-                Institution or virtually on Zoom, depending on the prevailing
-                conditions of the pandemic. Should the event be in-person, it
-                will simultaneously be livestreamed on YouTube for public
-                viewing.
+                A: TEDxYouth@RafflesInstitution will be held on 30 July 2022
+                either at the PAC of Raffles Institution or virtually on Zoom,
+                depending on the prevailing conditions of the pandemic. Should
+                the event be in-person, it will simultaneously be livestreamed
+                on YouTube for public viewing.
             </p>
             <br />
 
@@ -109,7 +108,7 @@ const Faq: NextPage = () => {
                 <Link href="/speakers">
                     <a className={base.link}>Speakers</a>
                 </Link>{" "}
-                page soon!
+                page in due course!
             </p>
             <br />
 
