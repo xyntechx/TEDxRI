@@ -1,4 +1,11 @@
-Use these commands after cloning the project for the first time.
+# TEDxYouth@RafflesInstitution
+TEDxYouth@RafflesInstitution is Raffles Institution's 2022 TEDx conference. With "Impact" as its theme, the TEDx conference will feature speakers sharing about scientific, technological, artistic, medical, philanthropic, humanitarian impact, etc. Aiming to spark intellectual curiosity, innovation, and conversation on ideas that matter, TEDxYouth@RafflesInstitution involves notable Rafflesian students, staff, and alumni as speakers, but everyone in Singapore and all over the globe are welcome to attend the conference!
+
+## 🤖 Technologies
+- Next.js
+- Typescript
+
+## 🔨 Usage
 ```bash
 npm install
 ```
