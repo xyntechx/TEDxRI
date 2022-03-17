@@ -169,22 +169,20 @@ const About: NextPage = () => {
                             <p className={popup.center}>
                                 Commitment Level:
                                 <br />
-                                ~5-10h/week, more in the weeks before and after
-                                the conference
+                                ~5h/week, more in the weeks before and after the
+                                conference
                             </p>
                             <p className={popup.center}>Details:</p>
                             <ul className={popup.text}>
                                 <li>
                                     Responsible for leading all production and
                                     planning for the day of the conference,
-                                    including content production, stage
-                                    management, technology, and video, etc
+                                    including content production, Zoom
+                                    management, technology & video-editing, etc
                                 </li>
                                 <li>
-                                    Liaise with AVU/Raffles Photography
-                                    Society/Gavel Club/etc to recruit volunteers
-                                    for production, ushering, photo-taking,
-                                    emceeing & video-editing, etc
+                                    Must have prior video-editing experience or
+                                    be willing to learn
                                 </li>
                             </ul>
                         </div>
