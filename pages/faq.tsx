@@ -71,19 +71,29 @@ const Faq: NextPage = () => {
             <br />
 
             <p className={base.red}>
+                Q: Why is TEDxYouth@RafflesInstitution now online?
+            </p>
+            <p className={base.text}>
+                A: In light of the COVID-19 situation in Singapore, the school
+                has instructed the EXCO to move the event from an in-person one
+                at the PAC to a virtual one online.
+            </p>
+            <br />
+
+            <p className={base.red}>
                 Q: How do I become an EXCO or volunteer at
                 TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>
-                A: Sign-ups for TEDxYouth@RafflesInstitution EXCO will open on
-                20 March at{" "}
+                A: Applications for TEDxYouth@RafflesInstitution EXCO will open
+                on 20 March at{" "}
                 <Link href="https://bit.ly/tedxriexco">
                     <a className={base.link} target="_blank">
                         https://bit.ly/tedxriexco
                     </a>
                 </Link>
                 , and that for volunteers nearer to the event date! Do note that
-                only Y56 students of Raffles Institution can sign up as EXCO
+                only Y56 students of Raffles Institution can apply as EXCO
                 members or volunteers. For queries, please email us at{" "}
                 <Link href="mailto:contact@tedxri.com">
                     <a className={base.link}>contact@tedxri.com</a>
