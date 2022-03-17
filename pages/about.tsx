@@ -286,7 +286,7 @@ const About: NextPage = () => {
                                 />
                             </a>
                         </Link>
-                        <Link href="https://xyntechx.netlify.app/">
+                        <Link href="https://xyntechx.com/">
                             <a target="_blank">
                                 <Image
                                     src="/website.png"
