@@ -44,11 +44,8 @@ const Faq: NextPage = () => {
 
             <p className={base.red}>Q: When is TEDxYouth@RafflesInstitution?</p>
             <p className={base.text}>
-                A: TEDxYouth@RafflesInstitution will be held on 30 July 2022
-                either at the PAC of Raffles Institution or virtually on Zoom,
-                depending on the prevailing conditions of the pandemic. Should
-                the event be in-person, it will simultaneously be livestreamed
-                on YouTube for public viewing.
+                A: TEDxYouth@RafflesInstitution will be held on 6 August 2022
+                virtually on Zoom.
             </p>
             <br />
 
@@ -67,10 +64,9 @@ const Faq: NextPage = () => {
                 Q: How do I attend TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>
-                A: In-person attendance is open only to Y56 students of Raffles
-                Institution. However, the public may attend the conference
-                virtually via links made available on this page and on our
-                Instagram & LinkedIn pages nearer to the event date.
+                A: Anyone may attend the conference virtually via links made
+                available on this page and on our Instagram & LinkedIn pages
+                nearer to the event date.
             </p>
             <br />
 

@@ -68,10 +68,8 @@ const Home: NextPage = () => {
             <section id="our-event" className={curves.red}>
                 <div className={curves.blobcontent}>
                     <h1 className={styles.title}>Impact</h1>
-                    <h1 className={styles.subtitle}>30 July 2022</h1>
-                    <p className={styles.subtitle}>
-                        @ Raffles Institution / Online
-                    </p>
+                    <h1 className={styles.subtitle}>6 August 2022</h1>
+                    <p className={styles.subtitle}>Online</p>
                     <p className={styles.content}>
                         TEDxYouth@RafflesInstitution is Raffles
                         Institution&apos;s 2022 TEDx conference, featuring
