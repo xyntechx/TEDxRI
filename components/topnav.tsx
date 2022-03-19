@@ -29,8 +29,10 @@ const Topnav: NextPage = () => {
                 <Link href="/speakers">
                     <a className={topnav.link}>Speakers</a>
                 </Link>
-                <Link href="/faq">
-                    <a className={topnav.speciallink}>Attend</a>
+                <Link href="/apply">
+                    <a target="_blank" className={topnav.speciallink}>
+                        Apply
+                    </a>
                 </Link>
             </div>
         </header>

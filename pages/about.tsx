@@ -299,8 +299,8 @@ const About: NextPage = () => {
             </div>
 
             <p className={styles.text}>
-                Applications for the TEDxYouth@RafflesInstitution EXCO will open
-                on 20 March at{" "}
+                Applications for the TEDxYouth@RafflesInstitution EXCO are open
+                from now until 18 April at{" "}
                 <Link href="https://bit.ly/tedxriexco">
                     <a className={styles.red} target="_blank">
                         https://bit.ly/tedxriexco
