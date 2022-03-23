@@ -45,7 +45,7 @@ const Faq: NextPage = () => {
             <p className={base.red}>Q: When is TEDxYouth@RafflesInstitution?</p>
             <p className={base.text}>
                 A: TEDxYouth@RafflesInstitution will be held on 6 August 2022
-                virtually on Zoom.
+                virtually on Zoom and simultaneously livestreamed on YouTube.
             </p>
             <br />
 
