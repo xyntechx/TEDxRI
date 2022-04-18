@@ -81,25 +81,6 @@ const Faq: NextPage = () => {
             <br />
 
             <p className={base.red}>
-                Q: How do I become an EXCO at TEDxYouth@RafflesInstitution?
-            </p>
-            <p className={base.text}>
-                A: EXCO applications are open from now until 18 April at{" "}
-                <Link href="https://bit.ly/tedxriexco">
-                    <a className={base.link} target="_blank">
-                        https://bit.ly/tedxriexco
-                    </a>
-                </Link>
-                ! Do note that only Y56 students of Raffles Institution can
-                apply as EXCO members. For queries, please email us at{" "}
-                <Link href="mailto:contact@tedxri.com">
-                    <a className={base.link}>contact@tedxri.com</a>
-                </Link>
-                .
-            </p>
-            <br />
-
-            <p className={base.red}>
                 Q: How can I become a speaker at TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>

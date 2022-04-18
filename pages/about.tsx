@@ -298,26 +298,6 @@ const About: NextPage = () => {
                 </section>
             </div>
 
-            <p className={styles.text}>
-                Applications for the TEDxYouth@RafflesInstitution EXCO are open
-                from now until 18 April at{" "}
-                <Link href="https://bit.ly/tedxriexco">
-                    <a className={styles.red} target="_blank">
-                        https://bit.ly/tedxriexco
-                    </a>
-                </Link>
-                . Follow{" "}
-                <Link href="https://www.instagram.com/tedxri/">
-                    <a target="_blank" className={styles.red}>
-                        @TEDxRI
-                    </a>
-                </Link>{" "}
-                for updates!
-            </p>
-
-            <br />
-            <br />
-
             <div className={styles.grid}>
                 <section className={styles.smallcontainer}>
                     <Image
