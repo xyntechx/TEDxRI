@@ -7,11 +7,10 @@
 }
 
 .title {
-    line-height: 1.15;
     font-size: 3rem;
     text-align: center;
     color: rgb(230, 43, 30);
-    margin-top: 8rem;
+    margin: 5rem 0;
 }
 
 .subtitle,
@@ -36,7 +35,8 @@
 }
 
 .red {
-    margin-top: 2rem;
+    margin: 0;
+    margin-bottom: 2rem;
 }
 
 .speakertext {
