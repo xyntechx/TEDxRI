@@ -49,7 +49,7 @@ const About: NextPage = () => {
 
             <Topnav />
 
-            {show0 || show1 || show2 || show3 ? (
+            {/* {show0 || show1 || show2 || show3 ? (
                 <div className={popup.main} onClick={closePopUp}>
                     {show0 ? (
                         <div className={popup.container}>
@@ -192,7 +192,7 @@ const About: NextPage = () => {
                 </div>
             ) : (
                 <></>
-            )}
+            )} */}
 
             <h1 className={styles.title}>Executive Committee</h1>
             <div className={styles.grid2}>
@@ -296,78 +296,128 @@ const About: NextPage = () => {
                         </Link>
                     </span>
                 </section>
+                <section className={styles.smallcontainer}>
+                    <Image
+                        src="/peixuan.jpg"
+                        alt="Liu Peixuan"
+                        width={200}
+                        height={200}
+                        className={styles.rounded}
+                    />
+                    <br />
+                    <p className={styles.name}>Liu Peixuan</p>
+                    <p className={styles.role}>Head of Publicity</p>
+                    <span className={styles.socials}>
+                        <Link href="https://www.linkedin.com/in/liu-peixuan-54a696238/">
+                            <a target="_blank">
+                                <Image
+                                    src="/linkedin.png"
+                                    alt="Peixuan LinkedIn"
+                                    width={20}
+                                    height={20}
+                                />
+                            </a>
+                        </Link>
+                    </span>
+                </section>
+                <section className={styles.smallcontainer}>
+                    <Image
+                        src="/jason.jpg"
+                        alt="Jason Nathaniel Sutio"
+                        width={200}
+                        height={200}
+                        className={styles.rounded}
+                    />
+                    <br />
+                    <p className={styles.name}>Jason Nathaniel Sutio</p>
+                    <p className={styles.role}>Head of Outreach</p>
+                    <span className={styles.socials}>
+                        <Link href="https://www.linkedin.com/in/jason-nathaniel-47646b238/">
+                            <a target="_blank">
+                                <Image
+                                    src="/linkedin.png"
+                                    alt="Jason LinkedIn"
+                                    width={20}
+                                    height={20}
+                                />
+                            </a>
+                        </Link>
+                    </span>
+                </section>
             </div>
 
-            <div className={styles.grid}>
+            {/* <div className={styles.grid2}>
+                
+            </div> */}
+
+            <div className={styles.grid3}>
                 <section className={styles.smallcontainer}>
                     <Image
-                        src="/placeholder.png"
-                        alt="Head of Publicity"
+                        src="/shreya.jpeg"
+                        alt="Shreya Menon"
                         width={200}
                         height={200}
                         className={styles.rounded}
                     />
                     <br />
-                    <p className={styles.name}>Head of Publicity</p>
-                    <button
-                        className={styles.learnmore}
-                        onClick={() => setShow0(true)}
-                    >
-                        Learn More
-                    </button>
+                    <p className={styles.name}>Shreya Menon</p>
+                    <p className={styles.role}>Head of Speaker Development</p>
+                    <Link href="https://www.linkedin.com/in/shreya-menon-737212219/">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Shreya LinkedIn"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
                 </section>
                 <section className={styles.smallcontainer}>
                     <Image
-                        src="/placeholder.png"
-                        alt="Head of Outreach"
+                        src="/cassandra.jpeg"
+                        alt="Goh Xinying, Cassandra"
                         width={200}
                         height={200}
                         className={styles.rounded}
                     />
                     <br />
-                    <p className={styles.name}>Head of Outreach</p>
-                    <button
-                        className={styles.learnmore}
-                        onClick={() => setShow1(true)}
-                    >
-                        Learn More
-                    </button>
-                </section>
-                <section className={styles.smallcontainer}>
-                    <Image
-                        src="/placeholder.png"
-                        alt="Head/Co-Head of Speaker Development"
-                        width={200}
-                        height={200}
-                        className={styles.rounded}
-                    />
-                    <br />
-                    <p className={styles.name}>
-                        Head/Co-Head of Speaker Development
+                    <p className={styles.name}>Goh Xinying, Cassandra</p>
+                    <p className={styles.role}>
+                        Co-Head of Speaker Development
                     </p>
-                    <button
-                        className={styles.learnmore}
-                        onClick={() => setShow2(true)}
-                    >
-                        Learn More
-                    </button>
+                    <Link href="https://www.linkedin.com/in/cassandra-goh-4b6113227/">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Cassandra LinkedIn"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
                 </section>
                 <section className={styles.smallcontainer}>
                     <Image
-                        src="/placeholder.png"
-                        alt="Head of Production"
+                        src="/alyssa.jpg"
+                        alt="Boo Xuan Pei Alyssa"
                         width={200}
                         height={200}
                         className={styles.rounded}
                     />
                     <br />
-                    <p className={styles.name}>Head of Production</p>
-                    <button
-                        className={styles.learnmore}
-                        onClick={() => setShow3(true)}
-                    >
-                        Learn More
-                    </button>
+                    <p className={styles.name}>Boo Xuan Pei Alyssa</p>
+                    <p className={styles.role}>Head of Production</p>
+                    <Link href="https://www.linkedin.com/in/alyssa-boo-7186a1238/">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Alyssa LinkedIn"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
                 </section>
             </div>
 
