@@ -307,18 +307,16 @@ const About: NextPage = () => {
                     <br />
                     <p className={styles.name}>Liu Peixuan</p>
                     <p className={styles.role}>Head of Publicity</p>
-                    <span className={styles.socials}>
-                        <Link href="https://www.linkedin.com/in/liu-peixuan-54a696238/">
-                            <a target="_blank">
-                                <Image
-                                    src="/linkedin.png"
-                                    alt="Peixuan LinkedIn"
-                                    width={20}
-                                    height={20}
-                                />
-                            </a>
-                        </Link>
-                    </span>
+                    <Link href="https://www.linkedin.com/in/liu-peixuan-54a696238/">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Peixuan LinkedIn"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
                 </section>
                 <section className={styles.smallcontainer}>
                     <Image
@@ -331,26 +329,17 @@ const About: NextPage = () => {
                     <br />
                     <p className={styles.name}>Jason Nathaniel Sutio</p>
                     <p className={styles.role}>Head of Outreach</p>
-                    <span className={styles.socials}>
-                        <Link href="https://www.linkedin.com/in/jason-nathaniel-47646b238/">
-                            <a target="_blank">
-                                <Image
-                                    src="/linkedin.png"
-                                    alt="Jason LinkedIn"
-                                    width={20}
-                                    height={20}
-                                />
-                            </a>
-                        </Link>
-                    </span>
+                    <Link href="https://www.linkedin.com/in/jason-nathaniel-47646b238/">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Jason LinkedIn"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
                 </section>
-            </div>
-
-            {/* <div className={styles.grid2}>
-                
-            </div> */}
-
-            <div className={styles.grid3}>
                 <section className={styles.smallcontainer}>
                     <Image
                         src="/shreya.jpeg"
