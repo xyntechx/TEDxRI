@@ -12,7 +12,7 @@ const Faq: NextPage = () => {
                 <title>TEDxYouth@RafflesInstitution</title>
                 <meta
                     name="description"
-                    content="Raffles Institution's 2022 TEDx conference"
+                    content="2022 student-led TEDx conference at Raffles Institution"
                 />
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="author" content="Nyx Iskandar"></meta>
@@ -22,7 +22,7 @@ const Faq: NextPage = () => {
                 />
                 <meta
                     property="og:description"
-                    content="Raffles Institution's 2022 TEDx conference"
+                    content="2022 student-led TEDx conference at Raffles Institution"
                 />
                 <meta
                     property="og:image"
@@ -37,8 +37,8 @@ const Faq: NextPage = () => {
             <h1 className={base.title}>FAQ</h1>
             <p className={base.red}>Q: What is TEDxYouth@RafflesInstitution?</p>
             <p className={base.text}>
-                A: TEDxYouth@RafflesInstitution is Raffles Institution&apos;s
-                2022 TEDx conference.
+                A: TEDxYouth@RafflesInstitution is a student-led TEDx conference
+                held at Raffles Institution.
             </p>
             <br />
 
@@ -74,9 +74,10 @@ const Faq: NextPage = () => {
                 Q: Why is TEDxYouth@RafflesInstitution now online?
             </p>
             <p className={base.text}>
-                A: In light of the COVID-19 situation in Singapore, the school
-                has instructed the EXCO to move the event from an in-person one
-                at the PAC to a virtual one online.
+                A: The planning for TEDxYouth@RafflesInstitution started during
+                a period of time with tightened Safe Management Measures. Hence,
+                we intend to proceed as an online conference, especially to
+                engage youth all over Singapore and beyond!
             </p>
             <br />
 

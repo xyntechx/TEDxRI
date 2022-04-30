@@ -27,7 +27,7 @@ const About: NextPage = () => {
                 <title>TEDxYouth@RafflesInstitution</title>
                 <meta
                     name="description"
-                    content="Raffles Institution's 2022 TEDx conference"
+                    content="2022 student-led TEDx conference at Raffles Institution"
                 />
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="author" content="Nyx Iskandar"></meta>
@@ -37,7 +37,7 @@ const About: NextPage = () => {
                 />
                 <meta
                     property="og:description"
-                    content="Raffles Institution's 2022 TEDx conference"
+                    content="2022 student-led TEDx conference at Raffles Institution"
                 />
                 <meta
                     property="og:image"
