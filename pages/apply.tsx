@@ -30,12 +30,12 @@ const Apply: NextPage = () => {
                 <meta property="og:type" content="website" />
                 <meta
                     httpEquiv="Refresh"
-                    content="0; url='https://bit.ly/tedxriexco'"
+                    content="0; url='https://bit.ly/tedxrispeaker'"
                 />
             </Head>
             <p className={styles.text}>
                 Click{" "}
-                <Link href="https://bit.ly/tedxriexco">
+                <Link href="https://bit.ly/tedxrispeaker">
                     <a className={styles.red}>me</a>
                 </Link>{" "}
                 if you are not redirected!
