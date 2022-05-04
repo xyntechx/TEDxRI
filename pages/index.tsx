@@ -52,8 +52,10 @@ const Home: NextPage = () => {
                 </p>
                 <br />
                 <div className={styles.buttoncontainer}>
-                    <Link href="/faq">
-                        <a className={page.button}>Learn More</a>
+                    <Link href="/apply">
+                        <a className={page.button} target="_blank">
+                            Apply to Speak
+                        </a>
                     </Link>
                 </div>
             </section>
@@ -76,7 +78,7 @@ const Home: NextPage = () => {
                     <br />
                     <div className={styles.buttoncontainer}>
                         <Link href="/faq">
-                            <a className={styles.button}>I want to attend!</a>
+                            <a className={styles.button}>Learn More</a>
                         </Link>
                     </div>
                     <br />

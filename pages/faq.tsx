@@ -88,12 +88,13 @@ const Faq: NextPage = () => {
                 A: TEDxYouth@RafflesInstitution will feature speakers who are
                 Y56 students, staff, and distinguished alumni of Raffles
                 Institution. Invitations will be sent out to staff and alumni
-                speakers, but student speakers are welcome to apply via an
-                application form on the{" "}
-                <Link href="/speakers">
-                    <a className={base.link}>Speakers</a>
-                </Link>{" "}
-                page in due course!
+                speakers, but student speakers are welcome to apply{" "}
+                <Link href="/apply">
+                    <a className={base.link} target="_blank">
+                        here
+                    </a>
+                </Link>
+                !
             </p>
             <br />
 
