@@ -16,7 +16,7 @@ const Home: NextPage = () => {
                 <title>TEDxYouth@RafflesInstitution</title>
                 <meta
                     name="description"
-                    content="2022 student-led TEDx conference at Raffles Institution"
+                    content="2022 student-led TEDx conference"
                 />
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="author" content="Nyx Iskandar"></meta>
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     property="og:description"
-                    content="2022 student-led TEDx conference at Raffles Institution"
+                    content="2022 student-led TEDx conference"
                 />
                 <meta
                     property="og:image"
@@ -47,9 +47,7 @@ const Home: NextPage = () => {
                     width={795}
                     height={273}
                 />
-                <p className={styles.text}>
-                    2022 student-led TEDx conference at Raffles Institution
-                </p>
+                <p className={styles.text}>2022 student-led TEDx conference</p>
                 <br />
                 <div className={styles.buttoncontainer}>
                     <Link href="/apply">
@@ -68,11 +66,9 @@ const Home: NextPage = () => {
                     <h1 className={styles.subtitle}>6 August 2022</h1>
                     <p className={styles.subtitle}>Online</p>
                     <p className={styles.content}>
-                        TEDxYouth@RafflesInstitution is Raffles
-                        Institution&apos;s 2022 TEDx conference, featuring
-                        speakers sharing about scientific, technological,
-                        artistic, medical, philanthropic, humanitarian impact,
-                        etc.
+                        TEDxYouth@RafflesInstitution aims to spark intellectual
+                        curiosity, innovation, and conversation on ideas that
+                        matter amongst youth in Singapore and beyond.
                     </p>
                     <br />
                     <br />

@@ -10,7 +10,7 @@ const Apply: NextPage = () => {
                 <title>TEDxYouth@RafflesInstitution</title>
                 <meta
                     name="description"
-                    content="2022 student-led TEDx conference at Raffles Institution"
+                    content="2022 student-led TEDx conference"
                 />
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="author" content="Nyx Iskandar"></meta>
@@ -20,7 +20,7 @@ const Apply: NextPage = () => {
                 />
                 <meta
                     property="og:description"
-                    content="2022 student-led TEDx conference at Raffles Institution"
+                    content="2022 student-led TEDx conference"
                 />
                 <meta
                     property="og:image"
