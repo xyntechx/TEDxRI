@@ -82,19 +82,12 @@ const Faq: NextPage = () => {
             <br />
 
             <p className={base.red}>
-                Q: How can I become a speaker at TEDxYouth@RafflesInstitution?
+                Q: Who are the speakers at TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>
                 A: TEDxYouth@RafflesInstitution will feature speakers who are
                 Y56 students, staff, and distinguished alumni of Raffles
-                Institution. Invitations will be sent out to staff and alumni
-                speakers, but student speakers are welcome to apply{" "}
-                <Link href="/apply">
-                    <a className={base.link} target="_blank">
-                        here
-                    </a>
-                </Link>
-                !
+                Institution.
             </p>
             <br />
 

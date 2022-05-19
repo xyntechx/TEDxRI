@@ -44,24 +44,10 @@ const About: NextPage = () => {
                 field.
             </p>
             <p className={styles.text}>
-                <Link href="/apply">
-                    <a className={styles.red} target="_blank">
-                        Applications
-                    </a>
-                </Link>{" "}
-                for student speakers are open now! Invitation emails are
-                currently being sent to staff and alumni speakers on a rolling
-                basis!
+                Applications for student speakers have closed! Invitation emails
+                are currently being sent to staff and alumni speakers on a
+                rolling basis!
             </p>
-            <br />
-            <br />
-            <div className={styles.buttoncontainer}>
-                <Link href="/apply">
-                    <a className={styles.button} target="_blank">
-                        Apply to Speak
-                    </a>
-                </Link>
-            </div>
             {/* <div className={styles.grid}>
                 <section className={styles.smallcontainer}>
                     <Image

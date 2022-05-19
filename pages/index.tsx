@@ -50,10 +50,8 @@ const Home: NextPage = () => {
                 <p className={styles.text}>2022 student-led TEDx conference</p>
                 <br />
                 <div className={styles.buttoncontainer}>
-                    <Link href="/apply">
-                        <a className={page.button} target="_blank">
-                            Apply to Speak
-                        </a>
+                    <Link href="/faq">
+                        <a className={page.button}>Learn More</a>
                     </Link>
                 </div>
             </section>
