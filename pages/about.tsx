@@ -350,7 +350,9 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Shreya Menon</p>
-                    <p className={styles.role}>Head of Speaker Development</p>
+                    <p className={styles.role}>
+                        Head of Speaker Development & Master of Ceremonies
+                    </p>
                     <Link href="https://www.linkedin.com/in/shreya-menon-737212219/">
                         <a target="_blank">
                             <Image
