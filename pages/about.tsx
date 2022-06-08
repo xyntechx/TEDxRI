@@ -3,24 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Page.module.css";
-import popup from "../styles/Popup.module.css";
 import Footer from "../components/footer";
 import Topnav from "../components/topnav";
-import { useState } from "react";
 
 const About: NextPage = () => {
-    const [show0, setShow0] = useState(false);
-    const [show1, setShow1] = useState(false);
-    const [show2, setShow2] = useState(false);
-    const [show3, setShow3] = useState(false);
-
-    const closePopUp = async () => {
-        setShow0(false);
-        setShow1(false);
-        setShow2(false);
-        setShow3(false);
-    };
-
     return (
         <div className={styles.maincontainer}>
             <Head>
@@ -48,151 +34,6 @@ const About: NextPage = () => {
             </Head>
 
             <Topnav />
-
-            {/* {show0 || show1 || show2 || show3 ? (
-                <div className={popup.main} onClick={closePopUp}>
-                    {show0 ? (
-                        <div className={popup.container}>
-                            <button
-                                className={popup.close}
-                                onClick={() => setShow0(false)}
-                            >
-                                X
-                            </button>
-                            <p className={styles.name}>Head of Publicity</p>
-                            <p className={popup.center}>
-                                Commitment Level:
-                                <br />
-                                ~5-10h/week
-                            </p>
-                            <p className={popup.center}>Details:</p>
-                            <ul className={popup.text}>
-                                <li>
-                                    Responsible for envisioning, creating, and
-                                    posting weekly posts/stories on Instagram
-                                    (@tedxri) & LinkedIn
-                                    (https://www.linkedin.com/company/tedxri)
-                                    and liaising with the school &
-                                    Students&apos; Council Communications
-                                    Department for publicity on
-                                    @raffles_institution & @teamraffles, and
-                                    LinkedIn
-                                    (https://www.linkedin.com/school/raffles-institution/),
-                                    etc
-                                </li>
-                                <li>
-                                    Prior experience in Instagram publicity
-                                    necessary (e.g. CE01 projects), LinkedIn
-                                    experience preferred
-                                </li>
-                            </ul>
-                        </div>
-                    ) : (
-                        <></>
-                    )}
-                    {show1 ? (
-                        <div className={popup.container}>
-                            <button
-                                className={popup.close}
-                                onClick={() => setShow1(false)}
-                            >
-                                X
-                            </button>
-                            <p className={styles.name}>Head of Outreach</p>
-                            <p className={popup.center}>
-                                Commitment Level:
-                                <br />
-                                ~5-10h/week
-                            </p>
-                            <p className={popup.center}>Details:</p>
-                            <p className={popup.text}>
-                                Responsible for creating publicity posters for
-                                speaker applications to be displayed in RI,
-                                liaising with school for schoolwide
-                                email/Stamford/Ivy announcements/Class
-                                leaders&apos; WhatsApp messages, liaising with
-                                Raffles Press for a feature/interview with
-                                co-founders to be published, all communications
-                                (e.g. email) with school
-                            </p>
-                        </div>
-                    ) : (
-                        <></>
-                    )}
-                    {show2 ? (
-                        <div className={popup.container}>
-                            <button
-                                className={popup.close}
-                                onClick={() => setShow2(false)}
-                            >
-                                X
-                            </button>
-                            <p className={styles.name}>
-                                Head/Co-Head of Speaker Development
-                            </p>
-                            <p className={popup.center}>
-                                Commitment Level:
-                                <br />
-                                ~10h/week
-                            </p>
-                            <p className={popup.center}>Details:</p>
-                            <ul className={popup.text}>
-                                <li>
-                                    Responsible for reaching out to, engaging,
-                                    selecting, setting deadlines for speakers &
-                                    providing feedback on drafts & rehearsal
-                                    performances
-                                </li>
-                                <li>
-                                    More details on requirements:
-                                    bit.ly/speakerselection1 &
-                                    bit.ly/speakerselection2
-                                </li>
-                                <li>
-                                    Prior experience in public speaking or
-                                    debating highly preferred
-                                </li>
-                            </ul>
-                        </div>
-                    ) : (
-                        <></>
-                    )}
-                    {show3 ? (
-                        <div className={popup.container}>
-                            <button
-                                className={popup.close}
-                                onClick={() => setShow3(false)}
-                            >
-                                X
-                            </button>
-                            <p className={styles.name}>Head of Production</p>
-                            <p className={popup.center}>
-                                Commitment Level:
-                                <br />
-                                ~5h/week, more in the weeks before and after the
-                                conference
-                            </p>
-                            <p className={popup.center}>Details:</p>
-                            <ul className={popup.text}>
-                                <li>
-                                    Responsible for leading all production and
-                                    planning for the day of the conference,
-                                    including content production, Zoom
-                                    management, technology & video-editing, etc
-                                </li>
-                                <li>
-                                    Must have prior video-editing experience or
-                                    be willing to learn
-                                </li>
-                            </ul>
-                        </div>
-                    ) : (
-                        <></>
-                    )}
-                </div>
-            ) : (
-                <></>
-            )} */}
 
             <h1 className={styles.title}>Executive Committee</h1>
             <div className={styles.grid2}>
