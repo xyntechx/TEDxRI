@@ -121,11 +121,10 @@ const About: NextPage = () => {
 
             <h1 className={styles.title}>Speakers</h1>
             <p className={styles.text}>
-                TEDxYouth@RafflesInstitution speakers include Y56 students,
-                staff, and distinguished alumni sharing about
-                &quot;Impact&quot;, including that in the scientific,
-                technological, artistic, medical, philanthropic, humanitarian
-                field.
+                TEDxYouth@RafflesInstitution speakers include students, staff,
+                and distinguished alumni sharing about &quot;Impact&quot;,
+                including that in the scientific, technological, artistic,
+                medical, philanthropic, humanitarian field.
             </p>
 
             <br />
@@ -245,7 +244,7 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Alex Li</p>
-                    <p className={styles.role}>Student</p>
+                    <p className={styles.role}>Year 6 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
@@ -256,7 +255,7 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Kareena Shanice Kumar</p>
-                    <p className={styles.role}>Student</p>
+                    <p className={styles.role}>Year 6 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
@@ -267,7 +266,7 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Teo Sui Leng</p>
-                    <p className={styles.role}>Student</p>
+                    <p className={styles.role}>Year 6 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
@@ -278,7 +277,7 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Zu Lilian</p>
-                    <p className={styles.role}>Student</p>
+                    <p className={styles.role}>Year 5 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
@@ -289,7 +288,7 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Ilangovan Harishiga</p>
-                    <p className={styles.role}>Student</p>
+                    <p className={styles.role}>Year 5 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
@@ -300,7 +299,7 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Kushagra Kesarwani</p>
-                    <p className={styles.role}>Student</p>
+                    <p className={styles.role}>Year 4 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
@@ -311,7 +310,7 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Santusht Narula</p>
-                    <p className={styles.role}>Student</p>
+                    <p className={styles.role}>Year 4 Student</p>
                 </section>
             </div>
 
