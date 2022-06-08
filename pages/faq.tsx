@@ -86,7 +86,7 @@ const Faq: NextPage = () => {
             </p>
             <p className={base.text}>
                 A: TEDxYouth@RafflesInstitution will feature speakers who are
-                Y56 students, staff, and distinguished alumni of Raffles
+                students, staff, and distinguished alumni of Raffles
                 Institution.
             </p>
             <br />
