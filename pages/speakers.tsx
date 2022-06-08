@@ -349,11 +349,11 @@ const EricLi = ({ closePopUp, setShow }: SpeakerArgs) => {
                 <p>&quot;Cryptocurrency is the future of money.&quot;</p>
                 <p>
                     Eric Li is a 19-year-old founder, programmer, and innovator.
-                    He previously founded TEDxNewton, Singapore's nationwide
-                    conference on science and technology, attracting over 6
-                    million impressions/views from people in 150+ countries and
-                    all 7 continents. A crypto native, Eric has held
-                    cryptocurrency since 2017 and is passionate about
+                    He previously founded TEDxNewton, Singapore&apos;s
+                    nationwide conference on science and technology, attracting
+                    over 6 million impressions/views from people in 150+
+                    countries and all 7 continents. A crypto native, Eric has
+                    held cryptocurrency since 2017 and is passionate about
                     decentralised finance (DeFi), especially the technology
                     underpinning automated market makers and decentralized
                     lending & borrowing.
@@ -745,15 +745,16 @@ const ZuLilian = ({ closePopUp, setShow }: SpeakerArgs) => {
                     in place.&quot;
                 </p>
                 <p>
-                    Hello, I'm Lilian from 23S03P! A fun fact about me is that 3
-                    years ago, my school was giving away its old library books
-                    and I shamelessly took 30... but as of today, I've only read
-                    half of them. My hobbies include crocheting and spending
-                    time with my friends! I genuinely hope that you will enjoy
-                    my talk -- as teenagers growing up in today's digital age, I
-                    thought that my topic would offer a unique perspective on
-                    the way we choose to live our lives, thereby rendering it an
-                    interesting food for thought :)
+                    Hello, I&apos;m Lilian from 23S03P! A fun fact about me is
+                    that 3 years ago, my school was giving away its old library
+                    books and I shamelessly took 30... but as of today,
+                    I&apos;ve only read half of them. My hobbies include
+                    crocheting and spending time with my friends! I genuinely
+                    hope that you will enjoy my talk -- as teenagers growing up
+                    in today&apos;s digital age, I thought that my topic would
+                    offer a unique perspective on the way we choose to live our
+                    lives, thereby rendering it an interesting food for thought
+                    :)
                 </p>
                 <span className={popup.images}>
                     <Link href="https://www.linkedin.com/in/lilian-zu-aa5aaa239/">
