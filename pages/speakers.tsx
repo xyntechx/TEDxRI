@@ -152,7 +152,7 @@ const About: NextPage = () => {
                         onClick={() => setShow1(true)}
                     />
                     <br />
-                    <p className={styles.name}>Professor Alex Siow</p>
+                    <p className={styles.name}>Prof. Alex Siow</p>
                     <p className={styles.role}>
                         Professor at National University of Singapore (NUS)
                     </p>
