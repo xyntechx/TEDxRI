@@ -75,8 +75,10 @@ const About: NextPage = () => {
             <Topnav />
 
             {show0 && <EricLi closePopUp={closePopUp} setShow={setShow0} />}
-            {/* {show1 && <AlexSiow closePopUp={closePopUp} setShow={setShow1} />} */}
-            {/* {show2 && <TheodoricChew closePopUp={closePopUp} setShow={setShow2} />} */}
+            {show1 && <AlexSiow closePopUp={closePopUp} setShow={setShow1} />}
+            {show2 && (
+                <TheodoricChew closePopUp={closePopUp} setShow={setShow2} />
+            )}
             {show3 && <AlvinKuek closePopUp={closePopUp} setShow={setShow3} />}
             {/* {show4 && <AnshariRahman closePopUp={closePopUp} setShow={setShow4} />} */}
             {show5 && <DenyseChan closePopUp={closePopUp} setShow={setShow5} />}
@@ -142,28 +144,30 @@ const About: NextPage = () => {
                     <p className={styles.name}>Eric Li</p>
                     <p className={styles.role}>TEDx Founder & Speaker</p>
                 </section>
-                {/* <section className={styles.smallcontainer}>
+                <section className={styles.smallcontainer}>
                     <img
-                        src="/speakers/eric.jpeg"
-                        alt="Eric Li"
+                        src="/speakers/prof-alex.jpg"
+                        alt="Professor Alex Siow"
                         className={styles.speakerpic}
                         onClick={() => setShow1(true)}
                     />
                     <br />
-                    <p className={styles.name}>Eric Li</p>
-                    <p className={styles.role}>TEDx Founder & Speaker</p>
-                </section> */}
-                {/* <section className={styles.smallcontainer}>
+                    <p className={styles.name}>Professor Alex Siow</p>
+                    <p className={styles.role}>
+                        Professor at National University of Singapore (NUS)
+                    </p>
+                </section>
+                <section className={styles.smallcontainer}>
                     <img
-                        src="/speakers/eric.jpeg"
-                        alt="Eric Li"
+                        src="/speakers/theodoric.jpeg"
+                        alt="Theodoric Chew"
                         className={styles.speakerpic}
                         onClick={() => setShow2(true)}
                     />
                     <br />
-                    <p className={styles.name}>Eric Li</p>
-                    <p className={styles.role}>TEDx Founder & Speaker</p>
-                </section> */}
+                    <p className={styles.name}>Theodoric Chew</p>
+                    <p className={styles.role}>Co-founder & CEO, Intellect</p>
+                </section>
                 <section className={styles.smallcontainer}>
                     <img
                         src="/speakers/alvin.jpg"
@@ -396,9 +400,133 @@ const EricLi = ({ closePopUp, setShow }: SpeakerArgs) => {
     );
 };
 
-// const AlexSiow = ({ closePopUp, setShow }: SpeakerArgs) => {return ()};
+const AlexSiow = ({ closePopUp, setShow }: SpeakerArgs) => {
+    return (
+        <div className={popup.main} onClick={closePopUp}>
+            <div className={popup.container}>
+                <button className={popup.close} onClick={() => setShow(false)}>
+                    X
+                </button>
+                <p>
+                    Prof Alex Siow is a professor in the department of
+                    Information Systems and Analytics of the School of
+                    Computing, NUS since 2015. Alex started as a Structural
+                    Engineer in the HDB in 1981 and appointed the CIO in 1989.
+                    In 2003, he was SVP in StarHub, where he was Head, Business
+                    Markets and CIO. In 2012, he joined Accenture as a Managing
+                    Director. Alex is currently in a number of boards, including
+                    Tee International, Toffs Technologies, DART Consulting, Red
+                    Alpha, SUSS and THK-AMK Hospital. Alex&apos;s book
+                    &quot;Leading with IT: Lessons from Singapore&apos;s first
+                    CIO&quot; was published in Feb 2021.
+                </p>
+                <span className={popup.images}>
+                    <Link href="https://www.linkedin.com/in/alex-siow-cmc-af-ccsk-5213b4/">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Prof Alex LinkedIn"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://www.facebook.com/Alexsy88">
+                        <a target="_blank">
+                            <Image
+                                src="/facebook.png"
+                                alt="Prof Alex Facebook"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                </span>
+            </div>
+        </div>
+    );
+};
 
-// const TheodoricChew = ({ closePopUp, setShow }: SpeakerArgs) => {return ()};
+const TheodoricChew = ({ closePopUp, setShow }: SpeakerArgs) => {
+    return (
+        <div className={popup.main} onClick={closePopUp}>
+            <div className={popup.container}>
+                <button className={popup.close} onClick={() => setShow(false)}>
+                    X
+                </button>
+                <p>
+                    Theodoric Chew is the Co-founder & CEO of Intellect, Asia
+                    Pacific&apos;s largest mental health company that provides
+                    technology-enabled mental healthcare for the world&apos;s
+                    leading workforces. Today, Intellect serves over 3 million
+                    members globally, covering Asia&apos;s largest employers.
+                    Intellect is backed by leading investors including Insignia
+                    Ventures Partners, Y Combinator, HOF Capital, Headline, East
+                    Ventures, MS&AD Ventures, XA Network and an extensive list
+                    of family offices, big tech executives & renowned angel
+                    investors.
+                </p>
+                <span className={popup.images}>
+                    <Link href="https://www.linkedin.com/in/theodoricchew/">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Theodoric LinkedIn"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://intellect.co/">
+                        <a target="_blank">
+                            <Image
+                                src="/website.png"
+                                alt="Theodoric Website"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://www.theodoric.com/">
+                        <a target="_blank">
+                            <Image
+                                src="/website.png"
+                                alt="Theodoric Website"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://twitter.com/theodoricchew">
+                        <a target="_blank">
+                            <Image
+                                src="/twitter.png"
+                                alt="Theodoric Twitter"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://www.instagram.com/theodoricchew/">
+                        <a target="_blank">
+                            <Image
+                                src="/instagram.png"
+                                alt="Theodoric Instagram"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                </span>
+            </div>
+        </div>
+    );
+};
 
 const AlvinKuek = ({ closePopUp, setShow }: SpeakerArgs) => {
     return (
