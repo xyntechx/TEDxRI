@@ -14,6 +14,7 @@ const About: NextPage = () => {
     const [show1, setShow1] = useState(false);
     const [show2, setShow2] = useState(false);
     const [show3, setShow3] = useState(false);
+    const [show4, setShow4] = useState(false);
     const [show5, setShow5] = useState(false);
     const [show6, setShow6] = useState(false);
     const [show7, setShow7] = useState(false);
@@ -31,6 +32,7 @@ const About: NextPage = () => {
         setShow1(false);
         setShow2(false);
         setShow3(false);
+        setShow4(false);
         setShow5(false);
         setShow6(false);
         setShow7(false);
@@ -76,6 +78,7 @@ const About: NextPage = () => {
             {show1 && <AlexSiow closePopUp={closePopUp} setShow={setShow1} />}
             {show2 && <TheodoricChew closePopUp={closePopUp} setShow={setShow2} />}
             {show3 && <AlvinKuek closePopUp={closePopUp} setShow={setShow3} />}
+            {show4 && <AnshariRahman closePopUp={closePopUp} setShow={setShow4} />}
             {show5 && <DenyseChan closePopUp={closePopUp} setShow={setShow5} />}
             {show6 && <SoonKonChun closePopUp={closePopUp} setShow={setShow6} />}
             {show7 && <GeraldineTanShuHui closePopUp={closePopUp} setShow={setShow7} />}
@@ -146,6 +149,20 @@ const About: NextPage = () => {
                     <p className={styles.name}>Alvin Kuek</p>
                     <p className={styles.role}>
                         CEO & Co-Founder of Mind Stretcher Education Group
+                    </p>
+                </section>
+                <section className={styles.smallcontainer}>
+                    <img
+                        src="/speakers/anshari.jpg"
+                        alt="Anshari Rahman"
+                        className={styles.speakerpic}
+                        onClick={() => setShow4(true)}
+                    />
+                    <br />
+                    <p className={styles.name}>Anshari Rahman</p>
+                    <p className={styles.role}>
+                        Vice President of Strategy and Development Group of
+                        GenZero
                     </p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -525,6 +542,51 @@ const AlvinKuek = ({ closePopUp, setShow }: SpeakerArgs) => {
                             <Image
                                 src="/website.png"
                                 alt="Alvin Website"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                </span>
+            </div>
+        </div>
+    );
+};
+
+const AnshariRahman = ({ closePopUp, setShow }: SpeakerArgs) => {
+    return (
+        <div className={popup.main} onClick={closePopUp}>
+            <div className={popup.container}>
+                <button className={popup.close} onClick={() => setShow(false)}>
+                    X
+                </button>
+                <p>
+                    &quot;We cannot change the cards we are dealt, just how we
+                    play the game.&quot;
+                </p>
+                <p>
+                    Anshari Rahman is Vice President at GenZero, based in
+                    Singapore. Prior to joining GenZero and Temasek, Anshari was
+                    a climate change negotiator with the National Climate Change
+                    Secretariat under the Prime Minister&apos;s Office. He has
+                    over 10 years experience in multilateral negotiations and
+                    policymaking, having represented the Singapore Government at
+                    various multilateral fora such as the UNFCCC, UNCBD, IPCC
+                    and ASEAN. He has coordinated whole-of-government
+                    initiatives such as Singapore&apos;s updated Nationally
+                    Determined Contribution and carbon markets strategy. He was
+                    the lead carbon markets negotiator for Singapore, and has
+                    co-chaired expert level negotiations on Article 6 of the
+                    Paris Agreement (international market and non-market based
+                    cooperation). Anshari has a Bachelor of Science (Life
+                    Sciences) from the National University of Singapore.
+                </p>
+                <span className={popup.images}>
+                    <Link href="https://www.linkedin.com/in/anshari-rahman/">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Anshari LinkedIn"
                                 width={20}
                                 height={20}
                             />
