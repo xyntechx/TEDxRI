@@ -54,7 +54,8 @@
 
 .disclaimer {
     font-size: 1rem;
-    margin: 2rem 5rem;
+    margin: 5rem;
+    margin-bottom: 2rem;
     color: gray;
 }
 
@@ -73,7 +74,7 @@
 
     .disclaimer {
         font-size: 0.5rem;
-        margin: 1.5rem 0.5rem;
+        margin: 2rem 0.5rem;
     }
 
     .red {

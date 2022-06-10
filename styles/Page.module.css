@@ -40,16 +40,22 @@
 }
 
 .subtitle,
-.text {
+.text,
+.textred {
     font-size: 1.5rem;
     color: rgba(17, 24, 39);
     text-align: justify;
     width: 30%;
 }
 
-.text {
-    width: 50%;
+.text,
+.textred {
+    width: 80%;
     margin-top: 0;
+}
+
+.textred {
+    color: rgb(230, 43, 30);
 }
 
 .image {
@@ -194,7 +200,8 @@
         width: 100%;
     }
 
-    .text {
+    .text,
+    .textred {
         width: 90%;
         font-size: 1rem;
     }

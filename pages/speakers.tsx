@@ -98,6 +98,9 @@ const About: NextPage = () => {
                 including that in the scientific, technological, artistic,
                 medical, philanthropic, humanitarian field.
             </p>
+            <p className={styles.textred}>
+                Click on the profile pictures to learn more about each speaker!
+            </p>
 
             <br />
             <br />
@@ -160,10 +163,7 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Anshari Rahman</p>
-                    <p className={styles.role}>
-                        Vice President of Strategy and Development Group of
-                        GenZero
-                    </p>
+                    <p className={styles.role}>Vice President at GenZero</p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
