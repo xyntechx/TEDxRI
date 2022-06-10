@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import base from "../styles/Base.module.css";
 import Footer from "../components/footer";
 import Topnav from "../components/topnav";

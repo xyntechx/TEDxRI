@@ -14,7 +14,6 @@ const About: NextPage = () => {
     const [show1, setShow1] = useState(false);
     const [show2, setShow2] = useState(false);
     const [show3, setShow3] = useState(false);
-    const [show4, setShow4] = useState(false);
     const [show5, setShow5] = useState(false);
     const [show6, setShow6] = useState(false);
     const [show7, setShow7] = useState(false);
@@ -32,7 +31,6 @@ const About: NextPage = () => {
         setShow1(false);
         setShow2(false);
         setShow3(false);
-        setShow4(false);
         setShow5(false);
         setShow6(false);
         setShow7(false);
@@ -76,50 +74,19 @@ const About: NextPage = () => {
 
             {show0 && <EricLi closePopUp={closePopUp} setShow={setShow0} />}
             {show1 && <AlexSiow closePopUp={closePopUp} setShow={setShow1} />}
-            {show2 && (
-                <TheodoricChew closePopUp={closePopUp} setShow={setShow2} />
-            )}
+            {show2 && <TheodoricChew closePopUp={closePopUp} setShow={setShow2} />}
             {show3 && <AlvinKuek closePopUp={closePopUp} setShow={setShow3} />}
-            {/* {show4 && <AnshariRahman closePopUp={closePopUp} setShow={setShow4} />} */}
             {show5 && <DenyseChan closePopUp={closePopUp} setShow={setShow5} />}
-            {show6 && (
-                <SoonKonChun closePopUp={closePopUp} setShow={setShow6} />
-            )}
-            {show7 && (
-                <GeraldineTanShuHui
-                    closePopUp={closePopUp}
-                    setShow={setShow7}
-                />
-            )}
-            {show8 && (
-                <ChuaKahHwee closePopUp={closePopUp} setShow={setShow8} />
-            )}
+            {show6 && <SoonKonChun closePopUp={closePopUp} setShow={setShow6} />}
+            {show7 && <GeraldineTanShuHui closePopUp={closePopUp} setShow={setShow7} />}
+            {show8 && <ChuaKahHwee closePopUp={closePopUp} setShow={setShow8} />}
             {show9 && <AlexLi closePopUp={closePopUp} setShow={setShow9} />}
-            {show10 && (
-                <KareenaShaniceKumar
-                    closePopUp={closePopUp}
-                    setShow={setShow10}
-                />
-            )}
-            {show11 && (
-                <TeoSuiLeng closePopUp={closePopUp} setShow={setShow11} />
-            )}
+            {show10 && <KareenaShaniceKumar closePopUp={closePopUp} setShow={setShow10} />}
+            {show11 && <TeoSuiLeng closePopUp={closePopUp} setShow={setShow11} />}
             {show12 && <ZuLilian closePopUp={closePopUp} setShow={setShow12} />}
-            {show13 && (
-                <IlangovanHarishiga
-                    closePopUp={closePopUp}
-                    setShow={setShow13}
-                />
-            )}
-            {show14 && (
-                <KushagraKesarwani
-                    closePopUp={closePopUp}
-                    setShow={setShow14}
-                />
-            )}
-            {show15 && (
-                <SantushtNarula closePopUp={closePopUp} setShow={setShow15} />
-            )}
+            {show13 && <IlangovanHarishiga closePopUp={closePopUp} setShow={setShow13} />}
+            {show14 && <KushagraKesarwani closePopUp={closePopUp} setShow={setShow14} />}
+            {show15 && <SantushtNarula closePopUp={closePopUp} setShow={setShow15} />}
 
             <h1 className={styles.title}>Speakers</h1>
             <p className={styles.text}>
@@ -181,17 +148,6 @@ const About: NextPage = () => {
                         CEO & Co-Founder of Mind Stretcher Education Group
                     </p>
                 </section>
-                {/* <section className={styles.smallcontainer}>
-                    <img
-                        src="/speakers/eric.jpeg"
-                        alt="Eric Li"
-                        className={styles.speakerpic}
-                        onClick={() => setShow4(true)}
-                    />
-                    <br />
-                    <p className={styles.name}>Eric Li</p>
-                    <p className={styles.role}>TEDx Founder & Speaker</p>
-                </section> */}
                 <section className={styles.smallcontainer}>
                     <img
                         src="/speakers/denyse.jpg"
@@ -579,8 +535,6 @@ const AlvinKuek = ({ closePopUp, setShow }: SpeakerArgs) => {
         </div>
     );
 };
-
-// const AnshariRahman = ({ closePopUp, setShow }: SpeakerArgs) => {return ()};
 
 const DenyseChan = ({ closePopUp, setShow }: SpeakerArgs) => {
     return (
