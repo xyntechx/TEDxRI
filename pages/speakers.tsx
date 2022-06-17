@@ -884,10 +884,6 @@ const ZuLilian = ({ closePopUp, setShow }: SpeakerArgs) => {
                     X
                 </button>
                 <p>
-                    &quot;Flow as the Sea wills you to and everything will fall
-                    in place.&quot;
-                </p>
-                <p>
                     Hello, I&apos;m Lilian from 23S03P! A fun fact about me is
                     that 3 years ago, my school was giving away its old library
                     books and I shamelessly took 30... but as of today,
@@ -934,6 +930,10 @@ const IlangovanHarishiga = ({ closePopUp, setShow }: SpeakerArgs) => {
                 <button className={popup.close} onClick={() => setShow(false)}>
                     X
                 </button>
+                <p>
+                    &quot;Flow as the Sea wills you to and everything will fall
+                    in place.&quot;
+                </p>
                 <p>
                     Ilangovan Harishiga is a rather extroverted human who loves
                     to talk to anyone and everyone. She has an ardent dedication
