@@ -322,16 +322,19 @@ const EricLi = ({ closePopUp, setShow }: SpeakerArgs) => {
                 <button className={popup.close} onClick={() => setShow(false)}>
                     X
                 </button>
-                <p>&quot;Cryptocurrency is the future of money.&quot;</p>
+                <p>
+                    &quot;Blockchain technology is crucial to the future of
+                    money.&quot;
+                </p>
                 <p>
                     Eric Li is a 19-year-old founder, programmer, and innovator.
-                    He previously founded TEDxNewton, Singapore&apos;s
-                    nationwide conference on science and technology, attracting
-                    over 6 million impressions/views from people in 150+
-                    countries and all 7 continents. A crypto native, Eric has
-                    held cryptocurrency since 2017 and is passionate about
+                    He holds two patents and is the founder of TEDxNewton,
+                    Singapore's nationwide conference on science and technology,
+                    attracting over 6 million impressions/views from people in
+                    150+ countries and all 7 continents. A crypto native, Eric
+                    has held cryptocurrency since 2017 and is passionate about
                     decentralised finance (DeFi), especially the technology
-                    underpinning automated market makers and decentralized
+                    underpinning automated market makers and decentralised
                     lending & borrowing.
                 </p>
                 <span className={popup.images}>
