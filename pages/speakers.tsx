@@ -26,6 +26,7 @@ const About: NextPage = () => {
     const [show13, setShow13] = useState(false);
     const [show14, setShow14] = useState(false);
     const [show15, setShow15] = useState(false);
+    const [show16, setShow16] = useState(false);
 
     const closePopUp = async () => {
         setShow0(false);
@@ -44,6 +45,7 @@ const About: NextPage = () => {
         setShow13(false);
         setShow14(false);
         setShow15(false);
+        setShow16(false);
     };
 
     return (
@@ -90,6 +92,7 @@ const About: NextPage = () => {
             {show13 && <IlangovanHarishiga closePopUp={closePopUp} setShow={setShow13} />}
             {show14 && <KushagraKesarwani closePopUp={closePopUp} setShow={setShow14} />}
             {show15 && <SantushtNarula closePopUp={closePopUp} setShow={setShow15} />}
+            {show16 && <LeeKahHow closePopUp={closePopUp} setShow={setShow16} />}
 
             <h1 className={styles.title}>Speakers</h1>
             <p className={styles.text}>
@@ -189,6 +192,17 @@ const About: NextPage = () => {
                     <br />
                     <p className={styles.name}>Chun Soon Kon</p>
                     <p className={styles.role}>Founder of Worksider</p>
+                </section>
+                <section className={styles.smallcontainer}>
+                    <img
+                        src="/speakers/kahhow.jpg"
+                        alt="Kahhow Lee"
+                        className={styles.speakerpic}
+                        onClick={() => setShow16(true)}
+                    />
+                    <br />
+                    <p className={styles.name}>Kahhow Lee</p>
+                    <p className={styles.role}>Educator and Founder of String</p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
@@ -699,7 +713,103 @@ const SoonKonChun = ({ closePopUp, setShow }: SpeakerArgs) => {
                         <a target="_blank">
                             <Image
                                 src="/telegram.png"
-                                alt="SGInternships Instagram"
+                                alt="SGInternships Telegram"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                </span>
+            </div>
+        </div>
+    );
+};
+
+const LeeKahHow = ({ closePopUp, setShow }: SpeakerArgs) => {
+    return (
+        <div className={popup.main} onClick={closePopUp}>
+            <div className={popup.container}>
+                <button className={popup.close} onClick={() => setShow(false)}>
+                    X
+                </button>
+                <p>
+                    &quot;Accommodating flexibility and autonomy to co-create
+                    will present exciting opportunities to education and the
+                    future of work.&quot;
+                </p>
+                <p>
+                    Kahhow breaks (dance) at dawn, teaches by day and works on
+                    digital skills training and digital products by dusk. He is
+                    passionate about edtech and uplifting individuals in an age
+                    of disruption. His lived experiences led to him founding
+                    CareerContact, a GSV Top 200 Edtech Startup which enabled
+                    digital skills exposure and training of hundreds of youth
+                    across Singapore, Thailand and the Philippines through the
+                    COVID period in a pro-bono capacity.
+                </p>
+                <p>
+                    His parents run microenterprises (cycling lessons provider
+                    and floral arrangement instructor) and he have personally
+                    been invested in their digital transformation. He has built
+                    systems for inventory management, point of sale, marketing,
+                    scheduling and payments using no/low-code tools and believes
+                    that other youths can do the same. Digital skills education,
+                    centered on no/low-code, will not only profoundly empower
+                    businesses but also teachers and students to build their own
+                    digital products. More people will be able to bring their
+                    ideas to life and partake in the rapid growth of the digital
+                    economy.
+                </p>
+                <span className={popup.images}>
+                    <Link href="https://www.linkedin.com/in/leekahhow">
+                        <a target="_blank">
+                            <Image
+                                src="/linkedin.png"
+                                alt="Kahhow LinkedIn"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://ghostleek.medium.com">
+                        <a target="_blank">
+                            <Image
+                                src="/website.png"
+                                alt="Kahhow Website"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://www.leekahhow.com">
+                        <a target="_blank">
+                            <Image
+                                src="/website.png"
+                                alt="Kahhow Website"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://www.twitter.com/leekahhow">
+                        <a target="_blank">
+                            <Image
+                                src="/twitter.png"
+                                alt="Kahhow Twitter"
+                                width={20}
+                                height={20}
+                            />
+                        </a>
+                    </Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link href="https://www.github.com/ghostleek">
+                        <a target="_blank">
+                            <Image
+                                src="/github.png"
+                                alt="Kahhow GitHub"
                                 width={20}
                                 height={20}
                             />
