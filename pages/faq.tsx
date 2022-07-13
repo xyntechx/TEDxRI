@@ -53,9 +53,9 @@ const Faq: NextPage = () => {
                 talks?
             </p>
             <p className={base.text}>
-                A: With &quot;Impact&quot; as our theme, speakers will share
-                about scientific, technological, artistic, medical,
-                philanthropic, humanitarian impact, etc.
+                A: The talks at our conference will revolve around our theme,
+                &quot;Impact&quot;, in a plethora of fields, from science to the
+                arts and from philantrophy to medicine.
             </p>
             <br />
 
@@ -65,7 +65,7 @@ const Faq: NextPage = () => {
             <p className={base.text}>
                 A: Anyone may attend the conference virtually via links made
                 available on this page and on our Instagram & LinkedIn pages
-                nearer to the event date.
+                nearer to 6 August 2022.
             </p>
             <br />
 
@@ -85,8 +85,7 @@ const Faq: NextPage = () => {
             </p>
             <p className={base.text}>
                 A: TEDxYouth@RafflesInstitution will feature speakers who are
-                students, staff, and distinguished alumni of Raffles
-                Institution.
+                students, staff, and alumni of Raffles Institution.
             </p>
             <br />
 
