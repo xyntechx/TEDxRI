@@ -26,6 +26,9 @@ const Topnav: NextPage = () => {
                 <Link href="/speakers">
                     <a className={topnav.link}>Speakers</a>
                 </Link>
+                <Link href="/schedule">
+                    <a className={topnav.link}>Schedule</a>
+                </Link>
                 <Link href="/faq">
                     <a className={topnav.speciallink}>FAQ</a>
                 </Link>
