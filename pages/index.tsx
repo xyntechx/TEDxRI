@@ -49,11 +49,11 @@ const Home: NextPage = () => {
                 />
                 <p className={styles.text}>2022 student-led TEDx conference</p>
                 <br />
-                <div className={styles.buttoncontainer}>
+                {/* <div className={styles.buttoncontainer}>
                     <Link href="/faq">
                         <a className={page.button}>Learn More</a>
                     </Link>
-                </div>
+                </div> */}
             </section>
 
             <div className={curves.curves}></div>
@@ -71,8 +71,10 @@ const Home: NextPage = () => {
                     <br />
                     <br />
                     <div className={styles.buttoncontainer}>
-                        <Link href="/faq">
-                            <a className={styles.button}>Learn More</a>
+                        <Link href="/schedule">
+                            <a className={styles.button}>
+                                See what&apos;s in store for you!
+                            </a>
                         </Link>
                     </div>
                     <br />
