@@ -36,8 +36,8 @@ const Schedule: NextPage = () => {
             <h1 className={styles.title}>Schedule</h1>
             <table className={styles.table}>
                 <tr className={styles.row}>
-                    <th className={styles.header}>Blocks</th>
-                    <th className={styles.header}>Action</th>
+                    <th className={styles.header}>Time</th>
+                    <th className={styles.header}>Item</th>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.time} rowSpan={5}>
@@ -70,13 +70,13 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.break}>
                     <td className={styles.time} rowSpan={1}>
-                        3:00pm-3.20pm
+                        3:00pm-3:20pm
                     </td>
                     <td className={styles.cell}>Break</td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.time} rowSpan={3}>
-                        3:20pm-4.10pm
+                        3:20pm-4:10pm
                     </td>
                     <td className={styles.cell}>
                         Alvin Kuek (18 min) <br />
@@ -98,13 +98,13 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.break}>
                     <td className={styles.time} rowSpan={1}>
-                        4:10pm-4.25pm
+                        4:10pm-4:25pm
                     </td>
                     <td className={styles.cell}>Break</td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.time} rowSpan={4}>
-                        4.25pm-5.15pm
+                        4:25pm-5:15pm
                     </td>
                     <td className={styles.cell}>
                         Chun Soon Kon (10 min) <br />
@@ -131,14 +131,14 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.break}>
                     <td className={styles.time} rowSpan={1}>
-                        5:15pm-5.30pm
+                        5:15pm-5:30pm
                     </td>
                     <td className={styles.cell}>Break</td>
                 </tr>
 
                 <tr className={styles.row}>
                     <td className={styles.time} rowSpan={7}>
-                        5.30pm-6.30pm
+                        5:30pm-6:30pm
                     </td>
                     <td className={styles.cell}>
                         Alex Li (22S03O) (8 min) <br />
