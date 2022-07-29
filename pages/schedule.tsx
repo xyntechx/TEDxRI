@@ -75,18 +75,12 @@ const Schedule: NextPage = () => {
                     <td className={styles.cell}>Break</td>
                 </tr>
                 <tr className={styles.row}>
-                    <td className={styles.time} rowSpan={3}>
-                        3:20pm-4:10pm
+                    <td className={styles.time} rowSpan={4}>
+                        3:20pm-4:15pm
                     </td>
                     <td className={styles.cell}>
                         Alvin Kuek (18 min) <br />
                         CEO & Co-Founder of Mind Stretcher Education Group
-                    </td>
-                </tr>
-                <tr className={styles.row}>
-                    <td className={styles.cell}>
-                        Anshari Rahman (18 min) <br />
-                        Vice President at GenZero
                     </td>
                 </tr>
                 <tr className={styles.row}>
@@ -96,16 +90,7 @@ const Schedule: NextPage = () => {
                         Scholar
                     </td>
                 </tr>
-                <tr className={styles.break}>
-                    <td className={styles.time} rowSpan={1}>
-                        4:10pm-4:25pm
-                    </td>
-                    <td className={styles.cell}>Break</td>
-                </tr>
                 <tr className={styles.row}>
-                    <td className={styles.time} rowSpan={4}>
-                        4:25pm-5:15pm
-                    </td>
                     <td className={styles.cell}>
                         Chun Soon Kon (10 min) <br />
                         Founder of Worksider
@@ -117,7 +102,16 @@ const Schedule: NextPage = () => {
                         Educator and Founder of String
                     </td>
                 </tr>
+                <tr className={styles.break}>
+                    <td className={styles.time} rowSpan={1}>
+                        4:15pm-4:35pm
+                    </td>
+                    <td className={styles.cell}>Break</td>
+                </tr>
                 <tr className={styles.row}>
+                    <td className={styles.time} rowSpan={4}>
+                        4:35pm-5:20pm
+                    </td>
                     <td className={styles.cell}>
                         Geraldine Tan (10 min) <br />
                         Educator
@@ -129,17 +123,7 @@ const Schedule: NextPage = () => {
                         Youth Counselor
                     </td>
                 </tr>
-                <tr className={styles.break}>
-                    <td className={styles.time} rowSpan={1}>
-                        5:15pm-5:30pm
-                    </td>
-                    <td className={styles.cell}>Break</td>
-                </tr>
-
                 <tr className={styles.row}>
-                    <td className={styles.time} rowSpan={7}>
-                        5:30pm-6:30pm
-                    </td>
                     <td className={styles.cell}>
                         Alex Li (22S03O) (8 min) <br />
                         Year 6 Student
@@ -151,7 +135,16 @@ const Schedule: NextPage = () => {
                         Year 6 Student
                     </td>
                 </tr>
+                <tr className={styles.break}>
+                    <td className={styles.time} rowSpan={1}>
+                        5:20pm-5:40pm
+                    </td>
+                    <td className={styles.cell}>Break</td>
+                </tr>
                 <tr className={styles.row}>
+                    <td className={styles.time} rowSpan={5}>
+                        5:40pm-6:30pm
+                    </td>
                     <td className={styles.cell}>
                         Teo Sui Leng (22S06M) (12 min) <br />
                         Year 6 Student
