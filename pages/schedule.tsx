@@ -152,7 +152,7 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Zu Lilian (23S03P) (4 min) <br />
+                        Zu Lilian (23S03P) (8 min) <br />
                         Year 5 Student
                     </td>
                 </tr>
@@ -164,7 +164,7 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Kushagra Kesarwani (4F) (10 min) <br />
+                        Kushagra Kesarwani (4F) (5 min) <br />
                         Year 4 Student
                     </td>
                 </tr>
