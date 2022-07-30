@@ -48,10 +48,12 @@ const Home: NextPage = () => {
                     height={273}
                 />
                 <p className={styles.text}>2022 student-led TEDx conference</p>
-                <br />
-                {/* <div className={styles.buttoncontainer}>
-                    <Link href="/faq">
-                        <a className={page.button}>Learn More</a>
+                {/* <br />
+                <div className={styles.buttoncontainer}>
+                    <Link href="/livestream">
+                        <a className={page.button} target="_blank">
+                            Attend Now!
+                        </a>
                     </Link>
                 </div> */}
             </section>
