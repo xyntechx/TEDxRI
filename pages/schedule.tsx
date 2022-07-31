@@ -47,7 +47,8 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Welcome address by Nyx, Co-Founder of TEDxRI (3-5 min)
+                        Welcome address by Nyx Iskandar (3 min) <br />
+                        Co-Founder, TEDxRI
                     </td>
                 </tr>
                 <tr className={styles.row}>
@@ -125,14 +126,14 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Alex Li (22S03O) (8 min) <br />
-                        Year 6 Student
+                        Alex Li (8 min) <br />
+                        Year 6 Student (22S03O)
                     </td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Kareena Shanice Kumar (22S06E) (6 min) <br />
-                        Year 6 Student
+                        Kareena Shanice Kumar (6 min) <br />
+                        Year 6 Student (22S06E)
                     </td>
                 </tr>
                 <tr className={styles.break}>
@@ -146,32 +147,32 @@ const Schedule: NextPage = () => {
                         5:40pm-6:30pm
                     </td>
                     <td className={styles.cell}>
-                        Teo Sui Leng (22S06M) (12 min) <br />
-                        Year 6 Student
+                        Teo Sui Leng (12 min) <br />
+                        Year 6 Student (22S06M)
                     </td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Zu Lilian (23S03P) (8 min) <br />
-                        Year 5 Student
+                        Zu Lilian (8 min) <br />
+                        Year 5 Student (23S03P)
                     </td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
                         Ilangovan Harishiga (10 min) <br />
-                        Year 5 Student
+                        Year 5 Student (23S03P)
                     </td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Kushagra Kesarwani (4F) (5 min) <br />
-                        Year 4 Student
+                        Kushagra Kesarwani (5 min) <br />
+                        Year 4 Student (4F)
                     </td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Santusht Narula (4J) (9 min) <br />
-                        Year 4 Student
+                        Santusht Narula (9 min) <br />
+                        Year 4 Student (4J)
                     </td>
                 </tr>
             </table>
