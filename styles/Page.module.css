@@ -85,11 +85,21 @@
     font-size: 1.2rem;
 }
 
+.button {
+    color: rgba(249, 250, 251);
+    background: rgb(230, 43, 30);
+    transition: 0.3s;
+}
+
 .button:hover,
 .learnmore:hover {
     color: rgba(249, 250, 251);
     background: rgb(230, 43, 30);
     cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 20px 35px 0 rgb(0 0 0 / 10%);
 }
 
 .red {
