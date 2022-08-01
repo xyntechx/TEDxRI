@@ -188,7 +188,9 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Kahhow Lee</p>
-                    <p className={styles.role}>Educator and Founder of String</p>
+                    <p className={styles.role}>
+                        Educator and Founder of String
+                    </p>
                 </section>
                 <section className={styles.smallcontainer}>
                     <img
@@ -204,12 +206,12 @@ const About: NextPage = () => {
                 <section className={styles.smallcontainer}>
                     <img
                         src="/speakers/kah-hwee.jpg"
-                        alt="Kah Hwee"
+                        alt="Chua Kah Hwee"
                         className={styles.speakerpic}
                         onClick={() => setShow8(true)}
                     />
                     <br />
-                    <p className={styles.name}>Kah Hwee</p>
+                    <p className={styles.name}>Chua Kah Hwee</p>
                     <p className={styles.role}>Youth Counselor</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -812,17 +814,17 @@ const ChuaKahHwee = ({ closePopUp, setShow }: SpeakerArgs) => {
                     X
                 </button>
                 <p>
-                    Kah Hwee was inspired into this work when she saw the hurts
-                    in young lives suffering from broken families. She wanted to
-                    give the children and youths an avenue to voice their
-                    thoughts and express their feelings. Switching careers from
-                    business development to counseling, she had been attending
-                    to young people for almost two decades. What sustained her
-                    in this demanding work was her playtime with her nieces and
-                    nephews, her conversations with her husband and plants, and
-                    her prayer time with God. Kah Hwee enjoys the interaction
-                    with young people and hopes to continue making a lasting
-                    positive impact on their lives!
+                    Chua Kah Hwee was inspired into this work when she saw the
+                    hurts in young lives suffering from broken families. She
+                    wanted to give the children and youths an avenue to voice
+                    their thoughts and express their feelings. Switching careers
+                    from business development to counseling, she had been
+                    attending to young people for almost two decades. What
+                    sustained her in this demanding work was her playtime with
+                    her nieces and nephews, her conversations with her husband
+                    and plants, and her prayer time with God. She enjoys the
+                    interaction with young people and hopes to continue making a
+                    lasting positive impact on their lives!
                 </p>
             </div>
         </div>

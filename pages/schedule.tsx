@@ -77,7 +77,7 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.time} rowSpan={4}>
-                        3:20pm-4:15pm
+                        3:20pm-4:10pm
                     </td>
                     <td className={styles.cell}>
                         Alvin Kuek (18 min) <br />
@@ -105,13 +105,13 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.break}>
                     <td className={styles.time} rowSpan={1}>
-                        4:15pm-4:35pm
+                        4:10pm-4:25pm
                     </td>
                     <td className={styles.cell}>Break</td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.time} rowSpan={4}>
-                        4:35pm-5:20pm
+                        4:25pm-5:15pm
                     </td>
                     <td className={styles.cell}>
                         Geraldine Tan (10 min) <br />
@@ -120,7 +120,7 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.cell}>
-                        Kah Hwee (15 min) <br />
+                        Chua Kah Hwee (15 min) <br />
                         Youth Counselor
                     </td>
                 </tr>
@@ -138,13 +138,13 @@ const Schedule: NextPage = () => {
                 </tr>
                 <tr className={styles.break}>
                     <td className={styles.time} rowSpan={1}>
-                        5:20pm-5:40pm
+                        5:15pm-5:30pm
                     </td>
                     <td className={styles.cell}>Break</td>
                 </tr>
                 <tr className={styles.row}>
                     <td className={styles.time} rowSpan={5}>
-                        5:40pm-6:30pm
+                        5:30pm-6:30pm
                     </td>
                     <td className={styles.cell}>
                         Teo Sui Leng (12 min) <br />
