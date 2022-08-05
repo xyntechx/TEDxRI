@@ -3,6 +3,7 @@ import Head from "next/head";
 import base from "../styles/Base.module.css";
 import Footer from "../components/footer";
 import Topnav from "../components/topnav";
+import Link from "next/link";
 
 const Faq: NextPage = () => {
     return (
@@ -44,7 +45,18 @@ const Faq: NextPage = () => {
             <p className={base.red}>Q: When is TEDxYouth@RafflesInstitution?</p>
             <p className={base.text}>
                 A: TEDxYouth@RafflesInstitution will be held on 6 August 2022
-                virtually on Zoom and simultaneously livestreamed on YouTube
+                virtually on{" "}
+                <Link href="/livestream">
+                    <a className={base.red} target="_blank">
+                        Zoom
+                    </a>
+                </Link>{" "}
+                and simultaneously livestreamed on{" "}
+                <Link href="https://www.youtube.com/channel/UC-ia31RELR9eRBiyZn9XcPA">
+                    <a className={base.red} target="_blank">
+                        YouTube
+                    </a>
+                </Link>{" "}
                 from 2 to 6.30pm.
             </p>
             <br />
@@ -64,9 +76,13 @@ const Faq: NextPage = () => {
                 Q: How do I attend TEDxYouth@RafflesInstitution?
             </p>
             <p className={base.text}>
-                A: Anyone may attend the conference virtually via links made
-                available on this page and on our Instagram & LinkedIn pages
-                nearer to 6 August 2022.
+                A: Anyone may attend the conference virtually via Zoom (
+                <Link href="/livestream">
+                    <a className={base.red} target="_blank">
+                        tedxri.com/livestream
+                    </a>
+                </Link>
+                ) or YouTube (link to be made available on 6 August).
             </p>
             <br />
 
