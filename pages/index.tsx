@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                 <div className={styles.buttoncontainer}>
                     <Link href="/livestream">
                         <a className={page.button} target="_blank">
-                            Attend on 6 Aug!
+                            Attend Now
                         </a>
                     </Link>
                 </div>
