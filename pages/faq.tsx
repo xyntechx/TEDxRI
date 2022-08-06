@@ -82,7 +82,13 @@ const Faq: NextPage = () => {
                         tedxri.com/livestream
                     </a>
                 </Link>
-                ) or YouTube (link to be made available on 6 August).
+                ) or a YouTube{" "}
+                <Link href="http://www.youtube.com/watch?v=oE8ZL_pPpKs">
+                    <a target="_blank" className={base.red}>
+                        Livestream
+                    </a>
+                </Link>
+                .
             </p>
             <br />
 
