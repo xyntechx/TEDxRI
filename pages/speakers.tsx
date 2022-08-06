@@ -96,7 +96,8 @@ const About: NextPage = () => {
                 TEDxYouth@RafflesInstitution speakers include students, staff,
                 and distinguished alumni sharing about &quot;Impact&quot;,
                 including that in the scientific, technological, artistic,
-                medical, philanthropic, humanitarian field.
+                medical, philanthropic, humanitarian field. The videos of each
+                speaker's talk will be made available by September 2022.
             </p>
             <p className={styles.textred}>
                 Click on the profile pictures to learn more about each speaker!
