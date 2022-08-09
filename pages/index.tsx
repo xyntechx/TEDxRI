@@ -64,15 +64,6 @@ const Home: NextPage = () => {
                     </p>
                     <br />
                     <br />
-                    <div className={styles.buttoncontainer}>
-                        <Link href="/schedule">
-                            <a className={styles.button}>
-                                See what&apos;s in store for you!
-                            </a>
-                        </Link>
-                    </div>
-                    <br />
-                    <br />
                 </div>
                 <br />
                 <br />
