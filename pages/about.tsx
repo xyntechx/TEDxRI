@@ -115,16 +115,6 @@ const About: NextPage = () => {
                                 />
                             </a>
                         </Link>
-                        <Link href="https://www.instagram.com/xyntechx/">
-                            <a target="_blank">
-                                <Image
-                                    src="/instagram.png"
-                                    alt="Nyx Instagram"
-                                    width={20}
-                                    height={20}
-                                />
-                            </a>
-                        </Link>
                         <Link href="https://xyntechx.com/">
                             <a target="_blank">
                                 <Image
