@@ -116,6 +116,19 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Eric Li</p>
+                    {/* <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/alex_siow_leadership_in_the_era_of_digital_transformation">
+                            <a target="_blank">
+                                Prof. Alex Siow{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p> */}
                     <p className={styles.role}>TEDx Founder & Speaker</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -126,7 +139,19 @@ const About: NextPage = () => {
                         onClick={() => setShow1(true)}
                     />
                     <br />
-                    <p className={styles.name}>Prof. Alex Siow</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/alex_siow_leadership_in_the_era_of_digital_transformation">
+                            <a target="_blank">
+                                Prof. Alex Siow{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>
                         Professor at National University of Singapore (NUS)
                     </p>
@@ -140,6 +165,19 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Theodoric Chew</p>
+                    {/* <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/alex_siow_leadership_in_the_era_of_digital_transformation">
+                            <a target="_blank">
+                                Prof. Alex Siow{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p> */}
                     <p className={styles.role}>Co-founder & CEO, Intellect</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -150,7 +188,19 @@ const About: NextPage = () => {
                         onClick={() => setShow3(true)}
                     />
                     <br />
-                    <p className={styles.name}>Alvin Kuek</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/alvin_kuek_reimagining_education">
+                            <a target="_blank">
+                                Alvin Kuek{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>
                         CEO & Co-Founder of Mind Stretcher Education Group
                     </p>
@@ -163,7 +213,19 @@ const About: NextPage = () => {
                         onClick={() => setShow5(true)}
                     />
                     <br />
-                    <p className={styles.name}>Denyse Chan</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/denyse_chan_en_garde_prets_allez_fence">
+                            <a target="_blank">
+                                Denyse Chan{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>
                         Singapore National Fencer & Sport Excellence (spex)
                         Scholar
@@ -177,7 +239,19 @@ const About: NextPage = () => {
                         onClick={() => setShow6(true)}
                     />
                     <br />
-                    <p className={styles.name}>Chun Soon Kon</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/soon_kon_chun_the_butterfly_impact_it_all_starts_small">
+                            <a target="_blank">
+                                Chun Soon Kon{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>Founder of Worksider</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -188,7 +262,19 @@ const About: NextPage = () => {
                         onClick={() => setShow16(true)}
                     />
                     <br />
-                    <p className={styles.name}>Kahhow Lee</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/kahhow_lee_the_future_of_education_with_no_low_code">
+                            <a target="_blank">
+                                Kahhow Lee{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>
                         Educator and Founder of String
                     </p>
@@ -202,6 +288,19 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Geraldine Tan</p>
+                    {/* <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/kahhow_lee_the_future_of_education_with_no_low_code">
+                            <a target="_blank">
+                                Kahhow Lee{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p> */}
                     <p className={styles.role}>Educator</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -213,6 +312,19 @@ const About: NextPage = () => {
                     />
                     <br />
                     <p className={styles.name}>Chua Kah Hwee</p>
+                    {/* <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/kahhow_lee_the_future_of_education_with_no_low_code">
+                            <a target="_blank">
+                                Kahhow Lee{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p> */}
                     <p className={styles.role}>Youth Counselor</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -223,7 +335,19 @@ const About: NextPage = () => {
                         onClick={() => setShow9(true)}
                     />
                     <br />
-                    <p className={styles.name}>Alex Li</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/alex_li_organic_chemistry_is_closer_than_you_think">
+                            <a target="_blank">
+                                Alex Li{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>Year 6 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -234,7 +358,19 @@ const About: NextPage = () => {
                         onClick={() => setShow10(true)}
                     />
                     <br />
-                    <p className={styles.name}>Kareena Shanice Kumar</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/kareena_shanice_kumar_brinkmanship_a_game_theoretical_explanation">
+                            <a target="_blank">
+                                Kareena Shanice Kumar{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>Year 6 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -245,7 +381,19 @@ const About: NextPage = () => {
                         onClick={() => setShow11(true)}
                     />
                     <br />
-                    <p className={styles.name}>Teo Sui Leng</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/teo_sui_leng_entrepreneurial_mindset_insights_on_entrepreneurship">
+                            <a target="_blank">
+                                Teo Sui Leng{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>Year 6 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -256,7 +404,19 @@ const About: NextPage = () => {
                         onClick={() => setShow12(true)}
                     />
                     <br />
-                    <p className={styles.name}>Zu Lilian</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/lilian_zu_the_dark_side_behind_your_pinterest_feed">
+                            <a target="_blank">
+                                Zu Lilian{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>Year 5 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -267,7 +427,19 @@ const About: NextPage = () => {
                         onClick={() => setShow13(true)}
                     />
                     <br />
-                    <p className={styles.name}>Ilangovan Harishiga</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/ilangovan_harishiga_passion_identity_boats">
+                            <a target="_blank">
+                                Ilangovan Harishiga{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>Year 5 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -278,7 +450,19 @@ const About: NextPage = () => {
                         onClick={() => setShow14(true)}
                     />
                     <br />
-                    <p className={styles.name}>Kushagra Kesarwani</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/kushagra_kesarwani_hydrogen_power_the_case_for_aviation">
+                            <a target="_blank">
+                                Kushagra Kesarwani{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>Year 4 Student</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -289,7 +473,19 @@ const About: NextPage = () => {
                         onClick={() => setShow15(true)}
                     />
                     <br />
-                    <p className={styles.name}>Santusht Narula</p>
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/santusht_narula_covid_19_s_impact_on_aviation_and_what_s_next">
+                            <a target="_blank">
+                                Santusht Narula{" "}
+                                <Image
+                                    src="/video.png"
+                                    width={16}
+                                    height={16}
+                                    alt="Watch Talk"
+                                ></Image>
+                            </a>
+                        </Link>
+                    </p>
                     <p className={styles.role}>Year 4 Student</p>
                 </section>
             </div>
