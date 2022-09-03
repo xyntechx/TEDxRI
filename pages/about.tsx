@@ -94,7 +94,7 @@ const About: NextPage = () => {
                     <p className={styles.role}>
                         Co-Founder & Head of Web Development
                     </p>
-                    <span className={styles.socials4}>
+                    <span className={styles.socials3}>
                         <Link href="https://www.linkedin.com/in/nyx-iskandar/">
                             <a target="_blank">
                                 <Image
