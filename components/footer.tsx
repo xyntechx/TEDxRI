@@ -37,7 +37,7 @@ const Footer: NextPage = () => {
                         </a>
                     </Link>
                     &nbsp;&nbsp;&nbsp;
-                    <Link href="mailto:contact@tedxri.com">
+                    <Link href="mailto:tedxyouthri@gmail.com">
                         <a target="_blank">
                             <Image
                                 src="/mail.png"
