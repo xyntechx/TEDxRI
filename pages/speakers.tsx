@@ -164,11 +164,10 @@ const About: NextPage = () => {
                         onClick={() => setShow2(true)}
                     />
                     <br />
-                    <p className={styles.name}>Theodoric Chew</p>
-                    {/* <p className={styles.name}>
-                        <Link href="https://www.ted.com/talks/alex_siow_leadership_in_the_era_of_digital_transformation">
+                    <p className={styles.name}>
+                        <Link href="https://www.youtube.com/watch?v=Ci-LpDFUapk">
                             <a target="_blank">
-                                Prof. Alex Siow{" "}
+                                Theodoric Chew{" "}
                                 <Image
                                     src="/video.png"
                                     width={16}
@@ -177,7 +176,7 @@ const About: NextPage = () => {
                                 ></Image>
                             </a>
                         </Link>
-                    </p> */}
+                    </p>
                     <p className={styles.role}>Co-founder & CEO, Intellect</p>
                 </section>
                 <section className={styles.smallcontainer}>
@@ -311,11 +310,10 @@ const About: NextPage = () => {
                         onClick={() => setShow8(true)}
                     />
                     <br />
-                    <p className={styles.name}>Chua Kah Hwee</p>
-                    {/* <p className={styles.name}>
-                        <Link href="https://www.ted.com/talks/kahhow_lee_the_future_of_education_with_no_low_code">
+                    <p className={styles.name}>
+                        <Link href="https://www.youtube.com/watch?v=V4z2bv8a47A">
                             <a target="_blank">
-                                Kahhow Lee{" "}
+                                Chua Kah Hwee{" "}
                                 <Image
                                     src="/video.png"
                                     width={16}
@@ -324,7 +322,7 @@ const About: NextPage = () => {
                                 ></Image>
                             </a>
                         </Link>
-                    </p> */}
+                    </p>
                     <p className={styles.role}>Youth Counselor</p>
                 </section>
                 <section className={styles.smallcontainer}>
