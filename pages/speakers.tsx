@@ -286,11 +286,10 @@ const About: NextPage = () => {
                         onClick={() => setShow7(true)}
                     />
                     <br />
-                    <p className={styles.name}>Geraldine Tan</p>
-                    {/* <p className={styles.name}>
-                        <Link href="https://www.ted.com/talks/kahhow_lee_the_future_of_education_with_no_low_code">
+                    <p className={styles.name}>
+                        <Link href="https://www.youtube.com/watch?v=Ce9CmNuoLMc">
                             <a target="_blank">
-                                Kahhow Lee{" "}
+                                Geraldine Tan{" "}
                                 <Image
                                     src="/video.png"
                                     width={16}
@@ -299,7 +298,7 @@ const About: NextPage = () => {
                                 ></Image>
                             </a>
                         </Link>
-                    </p> */}
+                    </p>
                     <p className={styles.role}>Educator</p>
                 </section>
                 <section className={styles.smallcontainer}>
