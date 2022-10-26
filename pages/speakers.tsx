@@ -115,11 +115,10 @@ const About: NextPage = () => {
                         onClick={() => setShow0(true)}
                     />
                     <br />
-                    <p className={styles.name}>Eric Li</p>
-                    {/* <p className={styles.name}>
-                        <Link href="https://www.ted.com/talks/alex_siow_leadership_in_the_era_of_digital_transformation">
+                    <p className={styles.name}>
+                        <Link href="https://www.ted.com/talks/eric_li_cryptocurrency_blockchain_decentralized_finance">
                             <a target="_blank">
-                                Prof. Alex Siow{" "}
+                                Eric Li{" "}
                                 <Image
                                     src="/video.png"
                                     width={16}
@@ -128,7 +127,7 @@ const About: NextPage = () => {
                                 ></Image>
                             </a>
                         </Link>
-                    </p> */}
+                    </p>
                     <p className={styles.role}>TEDx Founder & Speaker</p>
                 </section>
                 <section className={styles.smallcontainer}>
